@@ -1,0 +1,36 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  min-height: 3.2rem;
+  border-radius: 999px;
+  padding: 0.95rem 1.35rem;
+  font-weight: 800;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.primary {
+  background: var(--color-domo-secondary);
+  color: var(--color-domo-primary);
+  box-shadow: 0 18px 38px -22px var(--color-domo-secondary);
+}
+
+.secondary {
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 26%, transparent);
+  color: var(--color-domo-white);
+  background: color-mix(in srgb, var(--color-domo-white) 8%, transparent);
+}
+
+@media (max-width: 520px) {
+  .button {
+    width: 100%;
+  }
+}

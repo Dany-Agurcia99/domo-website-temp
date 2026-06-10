@@ -1,0 +1,70 @@
+.header {
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow,
+.eyebrowDark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  color: var(--color-domo-primary);
+}
+
+.eyebrowDark {
+  color: color-mix(in srgb, var(--color-domo-white) 88%, transparent);
+}
+
+.eyebrow::before,
+.eyebrowDark::before {
+  content: "";
+  width: 1.9rem;
+  height: 0.2rem;
+  border-radius: 999px;
+  background: var(--color-domo-secondary);
+}
+
+.title,
+.titleDark {
+  margin: 0.9rem 0 0;
+  font-family: var(--font-display), var(--font-main), sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.title {
+  color: var(--color-domo-primary);
+}
+
+.titleDark {
+  color: var(--color-domo-white);
+}
+
+.title span,
+.titleDark span {
+  color: var(--color-domo-secondary);
+}
+
+@media (min-width: 900px) {
+  .title,
+  .titleDark {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .title,
+  .titleDark {
+    font-size: 2.15rem;
+  }
+}

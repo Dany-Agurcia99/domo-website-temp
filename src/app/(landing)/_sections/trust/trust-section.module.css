@@ -1,0 +1,64 @@
+.section {
+  padding: 5rem 0;
+}
+
+.grid {
+  width: min(100%, 90rem);
+  margin: 3.5rem auto 0;
+  padding: 0 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  min-height: 13rem;
+  padding: 1.6rem;
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 10%, transparent);
+  border-radius: 1.5rem;
+  background: var(--gradient-domo-hero);
+  color: var(--color-domo-white);
+  box-shadow: 0 24px 60px -42px var(--color-domo-gradientEnd);
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  margin: 0;
+  font-family: var(--font-display), var(--font-main), sans-serif;
+  font-size: 1.55rem;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.card p {
+  margin: 0.75rem 0 0;
+  color: color-mix(in srgb, var(--color-domo-white) 74%, transparent);
+  line-height: 1.55;
+  font-weight: 600;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .section {
+    padding: 7rem 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .grid {
+    margin-top: 2rem;
+  }
+}

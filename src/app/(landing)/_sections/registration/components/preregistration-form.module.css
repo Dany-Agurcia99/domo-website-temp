@@ -1,0 +1,169 @@
+.formShell {
+  width: min(100%, 40rem);
+  margin-left: auto;
+  border: 1px solid var(--color-domo-outline);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--color-domo-secondary) 18%, transparent), transparent 46%),
+    var(--color-domo-white);
+  border-radius: 1.6rem;
+  padding: 1.2rem;
+  box-shadow: 0 30px 70px -50px var(--color-domo-baseOpp);
+}
+
+.formHeader {
+  display: grid;
+  gap: 0.45rem;
+  padding: 0.4rem 0.2rem 1rem;
+}
+
+.formTitle {
+  margin: 0;
+  color: var(--color-domo-primary);
+  font-family: var(--font-display), var(--font-main), sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.formDescription {
+  margin: 0;
+  color: color-mix(in srgb, var(--color-domo-primary) 74%, transparent);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.fieldGrid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.label {
+  color: var(--color-domo-baseOpp);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  min-height: 3.2rem;
+  border-radius: 1rem;
+  border: 2px solid color-mix(in srgb, var(--color-domo-outline) 82%, transparent);
+  background: var(--color-domo-base);
+  color: var(--color-domo-baseOpp);
+  font-family: var(--font-main), sans-serif;
+  font-size: 0.96rem;
+  font-weight: 600;
+  padding: 0.85rem 1rem;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--color-domo-gray);
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--color-domo-active);
+  background: var(--color-domo-white);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-domo-active) 18%, transparent);
+}
+
+.textarea {
+  min-height: 7.5rem;
+  resize: vertical;
+}
+
+.inputError {
+  border-color: var(--color-domo-red);
+}
+
+.errorText {
+  color: var(--color-domo-red);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.formMessage {
+  min-height: 1.35rem;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.formMessageSuccess {
+  color: var(--color-domo-green);
+}
+
+.formMessageError {
+  color: var(--color-domo-red);
+}
+
+.submitButton {
+  min-height: 3.35rem;
+  border: none;
+  border-radius: 999px;
+  background: var(--color-domo-primary);
+  color: var(--color-domo-white);
+  font-family: var(--font-main), sans-serif;
+  font-size: 0.98rem;
+  font-weight: 800;
+  padding: 0.95rem 1.2rem;
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.submitButton:hover {
+  background: var(--color-domo-gradientEnd);
+  box-shadow: 0 18px 40px -28px var(--color-domo-gradientEnd);
+  transform: translateY(-2px);
+}
+
+.submitButton:active {
+  transform: translateY(0);
+}
+
+.submitButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
+  transform: none;
+}
+
+.honeypot {
+  display: none;
+}
+
+@media (min-width: 760px) {
+  .formShell {
+    padding: 1.55rem;
+  }
+
+  .fieldGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fieldWide {
+    grid-column: span 2;
+  }
+}

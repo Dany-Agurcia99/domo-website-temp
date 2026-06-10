@@ -1,0 +1,76 @@
+.section {
+  padding: 5rem 0;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--color-domo-secondary) 18%, transparent), transparent 48%),
+    var(--color-domo-base);
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+
+.copy {
+  display: grid;
+  justify-items: start;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  color: var(--color-domo-primary);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 1.9rem;
+  height: 0.2rem;
+  border-radius: 999px;
+  background: var(--color-domo-secondary);
+}
+
+.copy h2 {
+  max-width: 11ch;
+  margin: 0.9rem 0 0;
+  color: var(--color-domo-primary);
+  font-family: var(--font-display), var(--font-main), sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.copy p:not(.eyebrow) {
+  max-width: 34rem;
+  margin: 1.1rem 0 0;
+  color: var(--color-domo-primary);
+  line-height: 1.65;
+  font-weight: 600;
+}
+
+@media (min-width: 900px) {
+  .section {
+    padding: 7rem 0;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 0.9fr) minmax(28rem, 1fr);
+    gap: 4rem;
+  }
+
+  .copy h2 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .copy h2 {
+    font-size: 2.15rem;
+  }
+}

@@ -1,0 +1,27 @@
+// Compose the new DOMO landing page.
+
+function App() {
+  React.useEffect(() => {
+    if (window.lucide && typeof window.lucide.createIcons === "function") {
+      window.lucide.createIcons();
+    }
+  }, []);
+
+  return (
+    <>
+      <Nav/>
+      <Hero/>
+      <ProblemSolution/>
+      <PreRegInfo/>
+      <HowItWorks/>
+      <MainCTA/>
+      <Survey/>
+      <Trust/>
+      <Services/>
+      <FAQ/>
+      <Footer/>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);

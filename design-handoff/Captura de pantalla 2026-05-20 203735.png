@@ -1,0 +1,98 @@
+// Service Categories — modern card grid.
+
+const SERVICES = [
+  { id: "limpieza",  title: "Limpieza de Hogar",      icon: "sparkles",   from: "L. 350",  blurb: "Profundas, recurrentes o post-mudanza, con Domésticos verificados." },
+  { id: "repara",    title: "Reparaciones",           icon: "wrench",     from: "L. 550",  blurb: "Plomería, electricidad, carpintería, pintura — sin sorpresas." },
+  { id: "tech",      title: "Soporte Técnico",        icon: "cpu",        from: "L. 450",  blurb: "Wi-Fi, configuración de TVs, dispositivos y recuperación de datos." },
+  { id: "mascotas",  title: "Cuidado de Mascotas",    icon: "paw-print",  from: "L. 220",  blurb: "Paseos, hospedaje en casa, visitas para alimentar y jugar." },
+  { id: "jardin",    title: "Jardinería",             icon: "flower-2",   from: "L. 380",  blurb: "Mantenimiento, poda, riego y diseño de jardines urbanos." },
+  { id: "mudanzas",  title: "Mudanzas y Cargas",      icon: "truck",      from: "L. 800",  blurb: "Equipos preparados para mudanzas locales y traslados puntuales." },
+  { id: "ninera",    title: "Cuidado de Niños",       icon: "baby",       from: "L. 280",  blurb: "Niñeras verificadas con experiencia y referencias comprobadas." },
+  { id: "electric",  title: "Electricidad",           icon: "zap",        from: "L. 420",  blurb: "Instalaciones, reparaciones y mantenimiento eléctrico domiciliario." },
+];
+
+function Services() {
+  return (
+    <section id="servicios" data-screen-label="Services" className="sand">
+      <div className="container">
+        <div className="section-head">
+          <span className="eyebrow">Categorías</span>
+          <h2>Todo lo que tu hogar necesita,<br/>en una sola app.</h2>
+          <p>Estos son los primeros servicios disponibles en el piloto. Agregamos nuevos cada mes según las solicitudes de los Fundadores.</p>
+        </div>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(4, 1fr)",
+          gap: 18,
+        }}>
+          {SERVICES.map(svc => (
+            <ServiceCard key={svc.id} {...svc}/>
+          ))}
+        </div>
+
+        <div style={{
+          marginTop: 36, textAlign: "center",
+          color: "var(--fg-3)", fontSize: 14,
+        }}>
+          ¿No ves el servicio que necesitás? <a href="#registro"
+            style={{color: "var(--accent)", fontWeight: 600, textDecoration: "none"}}>
+            Decínoslo en el formulario →
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ServiceCard({ title, icon, from, blurb }) {
+  const [hover, setHover] = React.useState(false);
+  return (
+    <article
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      style={{
+        background: "var(--domo-white)",
+        borderRadius: 18,
+        padding: "22px 22px 20px",
+        boxShadow: hover ? "var(--shadow-3)" : "var(--shadow-1)",
+        border: "1px solid var(--border-1)",
+        display: "flex", flexDirection: "column", gap: 12,
+        transform: hover ? "translateY(-3px)" : "translateY(0)",
+        transition: "all var(--dur-base) var(--ease-standard)",
+        cursor: "pointer",
+        minHeight: 220,
+      }}
+    >
+      <div style={{
+        width: 40, height: 40, borderRadius: 10,
+        background: "var(--domo-teal-50)",
+        display: "flex", alignItems: "center", justifyContent: "center",
+      }}>
+        <Icon name={icon} size={20} stroke="var(--accent)"/>
+      </div>
+      <h3 style={{
+        margin: 0, fontFamily: "var(--font-display)", fontWeight: 700,
+        fontSize: 17, lineHeight: 1.2, letterSpacing: "-0.01em",
+        color: "var(--domo-navy)",
+      }}>{title}</h3>
+      <p style={{
+        margin: 0, color: "var(--fg-2)", fontSize: 13, lineHeight: 1.55,
+        flex: 1,
+      }}>{blurb}</p>
+      <div style={{
+        marginTop: "auto", paddingTop: 8,
+        display: "flex", alignItems: "center", justifyContent: "space-between",
+        borderTop: "1px solid var(--border-1)",
+      }}>
+        <span style={{fontSize: 11, color: "var(--fg-3)", fontWeight: 500}}>Desde</span>
+        <span style={{
+          fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 15,
+          color: "var(--domo-navy)",
+        }}>{from}</span>
+      </div>
+    </article>
+  );
+}
+
+window.Services = Services;

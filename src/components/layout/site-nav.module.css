@@ -1,0 +1,87 @@
+.shell {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding: 0.75rem 0;
+  background: color-mix(in srgb, var(--color-domo-gradientEnd) 48%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-domo-white) 12%, transparent);
+  backdrop-filter: blur(20px) saturate(140%);
+  transition:
+    background 220ms ease,
+    border-color 220ms ease;
+}
+
+.shellScrolled {
+  background: color-mix(in srgb, var(--color-domo-gradientEnd) 76%, transparent);
+  border-color: color-mix(in srgb, var(--color-domo-white) 20%, transparent);
+}
+
+.nav {
+  width: min(100%, 80rem);
+  min-height: 3.5rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.links {
+  display: none;
+  align-items: center;
+  gap: 1.6rem;
+  margin-left: auto;
+}
+
+.links a,
+.cta {
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.links a {
+  color: color-mix(in srgb, var(--color-domo-white) 82%, transparent);
+  transition: color 180ms ease;
+}
+
+.links a:hover {
+  color: var(--color-domo-secondary);
+}
+
+.cta {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: var(--color-domo-secondary);
+  color: var(--color-domo-primary);
+  font-weight: 800;
+}
+
+@media (min-width: 900px) {
+  .links {
+    display: flex;
+  }
+
+  .cta {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .cta {
+    width: 100%;
+  }
+}

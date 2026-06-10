@@ -1,0 +1,128 @@
+.section {
+  padding: 5rem 0;
+}
+
+.grid {
+  width: min(100%, 90rem);
+  margin: 3.5rem auto 0;
+  padding: 0 1.25rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  min-height: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 10%, transparent);
+  border-radius: 1.5rem;
+  background: var(--color-domo-primary);
+  color: var(--color-domo-white);
+  box-shadow: 0 22px 54px -42px var(--color-domo-gradientEnd);
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--color-domo-secondary) 30%, transparent), transparent 58%);
+  opacity: 0.9;
+}
+
+.placeholder {
+  position: absolute;
+  inset: 4.2rem 1.8rem 7.5rem;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 14%, transparent);
+  border-radius: 1.3rem;
+  background: color-mix(in srgb, var(--color-domo-white) 8%, transparent);
+  color: var(--color-domo-secondary);
+  transition:
+    background 220ms ease,
+    transform 220ms ease;
+}
+
+.card:hover .placeholder {
+  background: color-mix(in srgb, var(--color-domo-secondary) 16%, transparent);
+  transform: scale(1.02);
+}
+
+.iconBadge {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-domo-white) 12%, transparent);
+  color: var(--color-domo-secondary);
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  padding: 1.5rem;
+  background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--color-domo-gradientEnd) 86%, transparent));
+}
+
+.content h3 {
+  margin: 0;
+  font-family: var(--font-display), var(--font-main), sans-serif;
+  font-size: 1.55rem;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.content p {
+  margin: 0.75rem 0 0;
+  color: color-mix(in srgb, var(--color-domo-white) 74%, transparent);
+  line-height: 1.55;
+  font-weight: 600;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .section {
+    padding: 7rem 0;
+  }
+
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.15rem;
+  }
+
+  .card {
+    min-height: 32rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .grid {
+    margin-top: 2rem;
+  }
+
+  .card {
+    min-height: 21rem;
+  }
+}

@@ -1,0 +1,287 @@
+.section {
+  position: relative;
+  min-height: 100svh;
+  padding: 7.6rem 0 4.5rem;
+  background: var(--gradient-domo-hero);
+  color: var(--color-domo-white);
+}
+
+.glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--color-domo-secondary) 16%, transparent), transparent 42%),
+    linear-gradient(315deg, color-mix(in srgb, var(--color-domo-active) 12%, transparent), transparent 52%);
+}
+
+.grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.copy {
+  display: grid;
+  justify-items: start;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  color: color-mix(in srgb, var(--color-domo-white) 88%, transparent);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 1.9rem;
+  height: 0.2rem;
+  border-radius: 999px;
+  background: var(--color-domo-secondary);
+}
+
+.title {
+  max-width: 11ch;
+  margin: 1.1rem 0 0;
+  font-family: var(--font-display), var(--font-main), sans-serif;
+  font-size: 3.4rem;
+  line-height: 0.96;
+  letter-spacing: 0;
+  color: var(--color-domo-white);
+}
+
+.title span {
+  color: var(--color-domo-secondary);
+}
+
+.description {
+  max-width: 42rem;
+  margin: 1.6rem 0 0;
+  color: color-mix(in srgb, var(--color-domo-white) 78%, transparent);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 2rem;
+}
+
+.proofList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
+.proofList li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 2.55rem;
+  padding: 0.62rem 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 18%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-domo-white) 7%, transparent);
+  color: color-mix(in srgb, var(--color-domo-white) 84%, transparent);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.visual {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 22rem;
+}
+
+.markWrap {
+  position: relative;
+  width: min(100%, 31rem);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--color-domo-secondary) 18%, transparent),
+    color-mix(in srgb, var(--color-domo-white) 6%, transparent)
+  );
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 12%, transparent);
+  box-shadow: 0 30px 80px -48px var(--color-domo-secondary);
+}
+
+.mockPanel {
+  width: min(100% - 2rem, 24rem);
+  display: grid;
+  gap: 1rem;
+  padding: 1.1rem;
+  border-radius: 1.6rem;
+  background: color-mix(in srgb, var(--color-domo-white) 92%, transparent);
+  color: var(--color-domo-primary);
+  box-shadow: 0 28px 70px -46px var(--color-domo-gradientEnd);
+}
+
+.mockHeader,
+.mockSearch,
+.mockProvider {
+  display: flex;
+  align-items: center;
+}
+
+.mockHeader {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.mockHeader span {
+  font-family: var(--font-display), var(--font-main), sans-serif;
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.mockHeader strong {
+  padding: 0.4rem 0.65rem;
+  border-radius: 999px;
+  background: var(--color-domo-secondary);
+  color: var(--color-domo-primary);
+  font-size: 0.74rem;
+}
+
+.mockSearch {
+  gap: 0.55rem;
+  min-height: 3rem;
+  padding: 0 0.9rem;
+  border: 1px solid var(--color-domo-outline);
+  border-radius: 999px;
+  background: var(--color-domo-base);
+  font-weight: 800;
+}
+
+.mockGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.mockService {
+  min-height: 6.6rem;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 0.55rem;
+  padding: 0.85rem;
+  border-radius: 1.05rem;
+  background: color-mix(in srgb, var(--color-domo-primary) 8%, var(--color-domo-white));
+  color: var(--color-domo-primary);
+  font-weight: 800;
+  text-align: center;
+}
+
+.mockService svg {
+  color: var(--color-domo-active);
+}
+
+.mockProvider {
+  gap: 0.75rem;
+  padding: 0.85rem;
+  border-radius: 1rem;
+  background: var(--color-domo-primary);
+  color: var(--color-domo-white);
+}
+
+.mockProvider > span {
+  width: 2.8rem;
+  height: 2.8rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--color-domo-secondary);
+  color: var(--color-domo-primary);
+  font-weight: 800;
+}
+
+.mockProvider div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.mockProvider small {
+  color: color-mix(in srgb, var(--color-domo-white) 72%, transparent);
+  font-weight: 700;
+}
+
+.floatCard {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 1.2rem;
+  display: grid;
+  gap: 0.2rem;
+  min-width: 12rem;
+  padding: 1rem 1.1rem;
+  border-radius: 1.15rem;
+  background: color-mix(in srgb, var(--color-domo-white) 86%, transparent);
+  color: var(--color-domo-primary);
+  box-shadow: 0 28px 60px -34px var(--color-domo-gradientEnd);
+}
+
+.floatCard span {
+  color: var(--color-domo-gray);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.floatCard strong {
+  font-size: 1.05rem;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 1.05fr 0.95fr;
+  }
+
+  .title {
+    font-size: 5.8rem;
+  }
+
+  .description {
+    font-size: 1.18rem;
+  }
+}
+
+@media (max-width: 899px) {
+  .visual {
+    min-height: 20rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .floatCard {
+    display: none;
+  }
+}

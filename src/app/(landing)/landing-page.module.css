@@ -1,0 +1,4 @@
+.page {
+  overflow: hidden;
+  background: var(--color-domo-base);
+}

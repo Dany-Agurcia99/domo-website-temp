@@ -1,0 +1,428 @@
+// Survey — multi-step pre-registration form with onboarding feel.
+// Steps:
+//   1. Role           — Hogar / Profesional / Ambos
+//   2. Services       — multi-select (Hogar) OR specialty (Pro)
+//   3. Location       — city + neighborhood
+//   4. Contact        — name / email / phone
+//   5. Success        — thank-you card
+
+const { useState } = React;
+
+const ROLES = [
+  { id: "hogar", icon: "home",   title: "Soy Hogar",        blurb: "Necesito contratar servicios para mi casa." },
+  { id: "pro",   icon: "hammer", title: "Soy Profesional",  blurb: "Quiero ofrecer mis servicios en DOMO." },
+  { id: "ambos", icon: "users",  title: "Ambos",            blurb: "Contrato y también ofrezco mis servicios." },
+];
+
+const SERVICES_HOGAR = [
+  { id: "limpieza",  label: "Limpieza",     icon: "sparkles" },
+  { id: "plomeria",  label: "Plomería",     icon: "wrench" },
+  { id: "electric",  label: "Electricidad", icon: "zap" },
+  { id: "mascotas",  label: "Mascotas",     icon: "paw-print" },
+  { id: "jardin",    label: "Jardinería",   icon: "flower-2" },
+  { id: "tech",      label: "Tecnología",   icon: "cpu" },
+  { id: "mudanzas",  label: "Mudanzas",     icon: "truck" },
+  { id: "ninera",    label: "Cuidado niños", icon: "baby" },
+];
+
+const CITIES = ["Tegucigalpa", "San Pedro Sula", "La Ceiba", "Choloma", "Otra ciudad"];
+
+function Survey() {
+  const [step, setStep] = useState(0); // 0..4
+  const [data, setData] = useState({
+    role: "",
+    services: [],
+    city: "",
+    zone: "",
+    name: "",
+    email: "",
+    phone: "",
+  });
+  const TOTAL = 4; // 4 input steps, then success
+
+  function update(patch) { setData(d => ({...d, ...patch})); }
+
+  function next() { setStep(s => Math.min(s + 1, TOTAL)); }
+  function prev() { setStep(s => Math.max(s - 1, 0)); }
+
+  function canAdvance() {
+    if (step === 0) return !!data.role;
+    if (step === 1) return data.services.length > 0;
+    if (step === 2) return data.city && data.zone.trim().length > 0;
+    if (step === 3) return data.name.trim() && /.+@.+\..+/.test(data.email) && data.phone.trim().length >= 7;
+    return true;
+  }
+
+  function onSubmit(e) {
+    e.preventDefault();
+    if (!canAdvance()) return;
+    next();
+  }
+
+  const showStepper = step < TOTAL;
+
+  return (
+    <section id="registro" className="sand" data-screen-label="Survey">
+      <div className="container--narrow">
+        <div className="section-head">
+          <span className="eyebrow">Encuesta de registro</span>
+          <h2>Cuéntanos quién sos.</h2>
+          <p>Cuatro pasos cortos. Tomá menos de un minuto. Te avisamos cuando DOMO esté listo en tu zona.</p>
+        </div>
+
+        <div style={{
+          background: "var(--domo-white)",
+          borderRadius: 28,
+          border: "1px solid var(--border-1)",
+          boxShadow: "var(--shadow-3)",
+          padding: "32px 36px 36px",
+          maxWidth: 720, margin: "0 auto",
+          position: "relative",
+        }}>
+          {showStepper && <Stepper step={step} total={TOTAL}/>}
+
+          <form onSubmit={onSubmit} style={{marginTop: 28}}>
+            <div key={step} className="fade-up">
+              {step === 0 && <StepRole data={data} update={update}/>}
+              {step === 1 && <StepServices data={data} update={update}/>}
+              {step === 2 && <StepLocation data={data} update={update}/>}
+              {step === 3 && <StepContact data={data} update={update}/>}
+              {step === 4 && <StepSuccess data={data}/>}
+            </div>
+
+            {showStepper && (
+              <div style={{
+                marginTop: 36,
+                display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12,
+              }}>
+                {step > 0 ? (
+                  <Button variant="ghost" onClick={prev} icon="arrow-left" type="button">
+                    Atrás
+                  </Button>
+                ) : <span/>}
+
+                <Button
+                  variant="primary" size="lg" type="submit"
+                  iconRight={step === TOTAL - 1 ? "check" : "arrow-right"}
+                  disabled={!canAdvance()}
+                  style={{
+                    opacity: canAdvance() ? 1 : 0.45,
+                    cursor: canAdvance() ? "pointer" : "not-allowed",
+                  }}>
+                  {step === TOTAL - 1 ? "Confirmar mi lugar" : "Continuar"}
+                </Button>
+              </div>
+            )}
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Stepper ---------- */
+function Stepper({ step, total }) {
+  const labels = ["Perfil", "Servicios", "Ubicación", "Contacto"];
+  return (
+    <div>
+      <div style={{
+        display: "flex", justifyContent: "space-between", alignItems: "center",
+        fontSize: 12, fontWeight: 600, color: "var(--fg-3)", marginBottom: 12,
+      }}>
+        <span style={{color: "var(--domo-navy)"}}>Paso {step + 1} de {total}</span>
+        <span>{labels[step]}</span>
+      </div>
+      <div style={{display: "flex", gap: 6}}>
+        {Array.from({length: total}).map((_, i) => (
+          <div key={i} style={{
+            flex: 1, height: 4, borderRadius: 999,
+            background: i <= step ? "var(--accent)" : "var(--domo-sand-200)",
+            transition: "background var(--dur-base) var(--ease-standard)",
+          }}/>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Step 1: Role ---------- */
+function StepRole({ data, update }) {
+  return (
+    <div>
+      <StepHeader title="¿Cómo te unís a DOMO?"
+                  blurb="Elegí el perfil con el que comenzás. Podés cambiarlo cuando lancemos."/>
+      <div style={{
+        display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 14, marginTop: 22,
+      }}>
+        {ROLES.map(r => {
+          const selected = data.role === r.id;
+          return (
+            <button key={r.id} type="button" onClick={() => update({role: r.id})}
+              style={{
+                background: selected ? "var(--domo-teal-50)" : "#fff",
+                border: `1.5px solid ${selected ? "var(--accent)" : "var(--border-2)"}`,
+                borderRadius: 16, padding: "22px 18px",
+                display: "flex", flexDirection: "column", gap: 10,
+                cursor: "pointer", textAlign: "left",
+                transition: "all var(--dur-base) var(--ease-standard)",
+                boxShadow: selected ? "0 0 0 3px rgba(25,83,90,0.12)" : "none",
+              }}>
+              <div style={{
+                width: 44, height: 44, borderRadius: 12,
+                background: selected ? "var(--accent)" : "var(--domo-teal-50)",
+                display: "flex", alignItems: "center", justifyContent: "center",
+                transition: "background var(--dur-base) var(--ease-standard)",
+              }}>
+                <Icon name={r.icon} size={22} stroke={selected ? "#fff" : "var(--accent)"}/>
+              </div>
+              <div>
+                <div style={{
+                  fontFamily: "var(--font-display)", fontWeight: 700,
+                  fontSize: 17, color: "var(--domo-navy)",
+                }}>{r.title}</div>
+                <div style={{
+                  fontSize: 13, color: "var(--fg-2)", marginTop: 4, lineHeight: 1.45,
+                }}>{r.blurb}</div>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Step 2: Services ---------- */
+function StepServices({ data, update }) {
+  const isPro = data.role === "pro";
+  const title = isPro ? "¿Cuál es tu especialidad?" : "¿Qué servicios usarías primero?";
+  const blurb = isPro
+    ? "Marcá todos los oficios en los que trabajás. Podés agregar más después."
+    : "Marcá los que más te interesan. Esto nos ayuda a priorizar qué lanzamos antes en tu zona.";
+
+  function toggle(id) {
+    update({
+      services: data.services.includes(id)
+        ? data.services.filter(s => s !== id)
+        : [...data.services, id],
+    });
+  }
+
+  return (
+    <div>
+      <StepHeader title={title} blurb={blurb}/>
+      <div style={{
+        display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 10, marginTop: 22,
+      }}>
+        {SERVICES_HOGAR.map(s => {
+          const selected = data.services.includes(s.id);
+          return (
+            <button key={s.id} type="button" onClick={() => toggle(s.id)}
+              style={{
+                background: selected ? "var(--domo-teal-50)" : "#fff",
+                border: `1.5px solid ${selected ? "var(--accent)" : "var(--border-2)"}`,
+                borderRadius: 14, padding: "16px 10px",
+                display: "flex", flexDirection: "column", alignItems: "center", gap: 8,
+                cursor: "pointer",
+                transition: "all var(--dur-base) var(--ease-standard)",
+                position: "relative",
+              }}>
+              {selected && (
+                <span style={{
+                  position: "absolute", top: 6, right: 6,
+                  width: 18, height: 18, borderRadius: 999,
+                  background: "var(--accent)", color: "#fff",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}>
+                  <Icon name="check" size={11} stroke="#fff" strokeWidth={3}/>
+                </span>
+              )}
+              <div style={{
+                width: 38, height: 38, borderRadius: 10,
+                background: selected ? "var(--accent)" : "var(--domo-sand-100)",
+                display: "flex", alignItems: "center", justifyContent: "center",
+                transition: "background var(--dur-base) var(--ease-standard)",
+              }}>
+                <Icon name={s.icon} size={18} stroke={selected ? "#fff" : "var(--accent)"}/>
+              </div>
+              <div style={{
+                fontSize: 12, fontWeight: 600,
+                color: selected ? "var(--accent)" : "var(--fg-1)",
+              }}>{s.label}</div>
+            </button>
+          );
+        })}
+      </div>
+      <div style={{
+        fontSize: 12, color: "var(--fg-3)", marginTop: 14,
+      }}>
+        {data.services.length === 0
+          ? "Tocá uno o más servicios para continuar."
+          : `${data.services.length} seleccionado${data.services.length === 1 ? "" : "s"}.`}
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Step 3: Location ---------- */
+function StepLocation({ data, update }) {
+  return (
+    <div>
+      <StepHeader title="¿Dónde está tu hogar?"
+                  blurb="Lanzamos zona por zona. Esto nos ayuda a priorizar tu colonia."/>
+      <div style={{display: "flex", flexDirection: "column", gap: 16, marginTop: 22}}>
+        <div className="field">
+          <label>Ciudad</label>
+          <div style={{
+            display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: 8,
+          }}>
+            {CITIES.map(c => {
+              const selected = data.city === c;
+              return (
+                <button key={c} type="button" onClick={() => update({city: c})}
+                  style={{
+                    padding: "12px 10px", borderRadius: 10,
+                    border: `1.5px solid ${selected ? "var(--accent)" : "var(--border-2)"}`,
+                    background: selected ? "var(--domo-teal-50)" : "#fff",
+                    color: selected ? "var(--accent)" : "var(--fg-1)",
+                    fontSize: 13, fontWeight: 600, cursor: "pointer",
+                    transition: "all var(--dur-base) var(--ease-standard)",
+                  }}>{c}</button>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="field">
+          <label>Colonia / Zona</label>
+          <input
+            type="text"
+            placeholder="Ej. Lomas del Mayab, Col. Palmira"
+            value={data.zone}
+            onChange={e => update({zone: e.target.value})}
+          />
+          <span className="hint">Solo lo usamos para avisarte cuando lleguemos a tu colonia.</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Step 4: Contact ---------- */
+function StepContact({ data, update }) {
+  return (
+    <div>
+      <StepHeader title="¿A dónde te avisamos?"
+                  blurb="Te escribimos por correo y WhatsApp en cuanto DOMO esté listo en tu ciudad."/>
+      <div style={{display: "flex", flexDirection: "column", gap: 14, marginTop: 22}}>
+        <div className="field">
+          <label>Nombre completo</label>
+          <input type="text" placeholder="María Castro"
+                 value={data.name}
+                 onChange={e => update({name: e.target.value})}/>
+        </div>
+        <div className="field">
+          <label>Correo electrónico</label>
+          <input type="email" placeholder="maria@correo.com"
+                 value={data.email}
+                 onChange={e => update({email: e.target.value})}/>
+        </div>
+        <div className="field">
+          <label>WhatsApp</label>
+          <input type="tel" placeholder="+504 9876-5432"
+                 value={data.phone}
+                 onChange={e => update({phone: e.target.value})}/>
+          <span className="hint">Solo te escribimos cuando haya novedades importantes.</span>
+        </div>
+
+        <div style={{
+          display: "flex", alignItems: "flex-start", gap: 10,
+          padding: "14px 16px",
+          background: "var(--domo-sand-100)",
+          borderRadius: 12, marginTop: 6,
+        }}>
+          <Icon name="lock" size={16} stroke="var(--accent)"/>
+          <span style={{fontSize: 12, color: "var(--fg-2)", lineHeight: 1.5}}>
+            Tus datos quedan protegidos por nuestro Aviso de Privacidad. No compartimos tu información con terceros — promesa de Fundador.
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Step 5: Success ---------- */
+function StepSuccess({ data }) {
+  const firstName = data.name.split(" ")[0] || "amig@";
+  return (
+    <div style={{textAlign: "center", padding: "20px 0 8px"}}>
+      <div style={{
+        width: 80, height: 80, borderRadius: 999,
+        background: "var(--domo-teal-50)",
+        display: "inline-flex", alignItems: "center", justifyContent: "center",
+        margin: "0 auto 22px",
+        position: "relative",
+      }}>
+        <div style={{
+          position: "absolute", inset: -8, borderRadius: 999,
+          border: "2px solid var(--accent)", opacity: 0.20,
+        }}/>
+        <Icon name="check" size={38} stroke="var(--accent)" strokeWidth={2.6}/>
+      </div>
+      <h3 style={{
+        margin: 0,
+        fontFamily: "var(--font-display)", fontWeight: 700,
+        fontSize: 30, letterSpacing: "-0.015em",
+        color: "var(--domo-navy)",
+      }}>¡Estás dentro, {firstName}!</h3>
+      <p style={{
+        margin: "12px auto 24px", maxWidth: 460,
+        fontSize: 16, lineHeight: 1.55, color: "var(--fg-2)",
+      }}>
+        Reservamos tu lugar como <strong style={{color: "var(--domo-navy)"}}>Miembro Fundador</strong>.
+        Te escribimos a <strong style={{color: "var(--domo-navy)"}}>{data.email || "tu correo"}</strong> cuando DOMO esté listo en {data.city || "tu ciudad"}.
+      </p>
+
+      <div style={{
+        display: "inline-flex", flexDirection: "column", gap: 10,
+        background: "var(--domo-sand-100)",
+        borderRadius: 14, padding: "16px 22px",
+        textAlign: "left",
+      }}>
+        {[
+          "Vas a recibir un correo de bienvenida en menos de 10 min.",
+          "Te incluimos en el canal de WhatsApp de Fundadores.",
+          "Mantenés tu tarifa fundador para siempre.",
+        ].map(line => (
+          <div key={line} style={{
+            display: "flex", alignItems: "center", gap: 10,
+            fontSize: 14, color: "var(--fg-1)",
+          }}>
+            <Icon name="check-circle-2" size={18} stroke="var(--accent)"/>
+            {line}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Step header ---------- */
+function StepHeader({ title, blurb }) {
+  return (
+    <div>
+      <h3 style={{
+        margin: 0,
+        fontFamily: "var(--font-display)", fontWeight: 700,
+        fontSize: 26, letterSpacing: "-0.015em",
+        color: "var(--domo-navy)",
+      }}>{title}</h3>
+      <p style={{
+        margin: "8px 0 0",
+        fontSize: 15, color: "var(--fg-2)", lineHeight: 1.55,
+      }}>{blurb}</p>
+    </div>
+  );
+}
+
+window.Survey = Survey;
