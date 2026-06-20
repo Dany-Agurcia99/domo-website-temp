@@ -1,10 +1,3 @@
-export const landingNavItems = [
-  { label: "Como funciona", href: "#como-funciona" },
-  { label: "Servicios", href: "#servicios" },
-  { label: "Confianza", href: "#confianza" },
-  { label: "Registro", href: "#registro" },
-] as const;
-
 export const landingHero = {
   eyebrow: "Piloto en Honduras",
   titleLead: "La app que arregla tu hogar",
@@ -97,11 +90,3 @@ export const landingCta = {
     "Los primeros miembros reciben acceso anticipado y prioridad cuando DOMO active su primera ola de servicios.",
   cta: "Asegurar mi lugar",
 } as const;
-
-export const footerLinks = [
-  { label: "Como funciona", href: "#como-funciona" },
-  { label: "Servicios", href: "#servicios" },
-  { label: "Confianza", href: "#confianza" },
-  { label: "Registro", href: "#registro" },
-  { label: "Contacto", href: "mailto:hola@domo.hn" },
-] as const;

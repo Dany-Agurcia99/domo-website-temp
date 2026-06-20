@@ -4,6 +4,10 @@
   --font-sans: var(--font-main);
 }
 
+:root {
+  --site-footer-height: calc(28rem + env(safe-area-inset-bottom));
+}
+
 *,
 *::before,
 *::after {
@@ -69,5 +73,11 @@ video {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    --site-footer-height: calc(26rem + env(safe-area-inset-bottom));
   }
 }

@@ -1,43 +1,49 @@
 .footer {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 0;
+  height: var(--site-footer-height);
   overflow: hidden;
-  padding: 2.4rem 1.25rem 1.5rem;
+  padding: 2.25rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom));
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
   background: var(--color-domo-gradientEnd);
   color: var(--color-domo-white);
 }
 
-.top,
+.links,
 .bottom {
   width: min(100%, 80rem);
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.4rem;
 }
 
 .links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.links a {
+.links a,
+.legalLinks a {
   color: color-mix(in srgb, var(--color-domo-white) 82%, transparent);
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-weight: 700;
   transition: color 180ms ease;
 }
 
-.links a:hover {
+.links a:hover,
+.legalLinks a:hover {
   color: var(--color-domo-secondary);
 }
 
 .wordmarkBackdrop {
-  margin: 1.2rem 0 0;
+  align-self: center;
+  margin: 0;
   font-family: var(--font-display), var(--font-main), sans-serif;
-  font-size: 8rem;
-  line-height: 0.85;
+  font-size: clamp(7rem, 30vw, 8.5rem);
+  line-height: 0.82;
   font-weight: 800;
   text-align: center;
   color: var(--color-domo-white);
@@ -46,28 +52,94 @@
 }
 
 .bottom {
-  padding-top: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
   color: color-mix(in srgb, var(--color-domo-white) 58%, transparent);
   font-size: 0.78rem;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0;
+}
+
+.legalLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+}
+
+.company {
+  display: grid;
+  justify-items: end;
+  gap: 0.65rem;
+  white-space: nowrap;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.socialLinks a {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 32%, transparent);
+  border-radius: 50%;
+  color: var(--color-domo-white);
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.socialLinks a:hover {
+  border-color: var(--color-domo-secondary);
+  background: var(--color-domo-secondary);
+  color: var(--color-domo-primary);
 }
 
 @media (min-width: 700px) {
   .wordmarkBackdrop {
-    font-size: 13rem;
+    font-size: clamp(11rem, 21vw, 13rem);
   }
 }
 
 @media (min-width: 900px) {
   .wordmarkBackdrop {
-    font-size: 20rem;
+    font-size: clamp(12rem, 18vw, 16.5rem);
   }
 }
 
-@media (max-width: 520px) {
-  .wordmarkBackdrop {
-    font-size: 5.5rem;
+@media (max-width: 699px) {
+  .footer {
+    padding-top: 1.75rem;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.55rem;
+    text-align: center;
+  }
+
+  .bottom {
+    align-items: center;
+    flex-direction: column;
+    gap: 0.9rem;
+    text-align: center;
+  }
+
+  .legalLinks {
+    justify-content: center;
+    gap: 0.5rem 1rem;
+  }
+
+  .company {
+    justify-items: center;
+    gap: 0.5rem;
   }
 }

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 import { Wordmark } from "@/components/brand/wordmark";
 
@@ -27,22 +28,22 @@ export function SiteNav({ items }: { items: readonly NavItem[] }) {
   return (
     <header className={`${styles.shell} ${scrolled ? styles.shellScrolled : ""}`}>
       <nav className={styles.nav} aria-label="Navegacion principal">
-        <a className={styles.logoLink} href="#top" aria-label="DOMO inicio">
+        <Link className={styles.logoLink} href="/#top" aria-label="DOMO inicio">
           <Wordmark />
-        </a>
+        </Link>
 
         <div className={styles.links}>
           {items.map((item) => (
-            <a key={item.href} href={item.href}>
+            <Link key={item.href} href={item.href}>
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
 
-        <a className={styles.cta} href="#registro">
+        <Link className={styles.cta} href="/#registro">
           <span>Unete</span>
           <ArrowRight aria-hidden size={17} strokeWidth={2.4} />
-        </a>
+        </Link>
       </nav>
     </header>
   );

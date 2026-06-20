@@ -1,0 +1,11 @@
+.pageLayer {
+  position: relative;
+  z-index: 1;
+  min-height: 100svh;
+  background: var(--color-domo-base);
+  box-shadow: 0 1.25rem 3rem color-mix(in srgb, var(--color-domo-gradientEnd) 22%, transparent);
+}
+
+.footerRevealSpace {
+  height: var(--site-footer-height);
+}

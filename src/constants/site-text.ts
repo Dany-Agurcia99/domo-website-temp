@@ -66,3 +66,18 @@ export const leadSourceOptions = [
   "WhatsApp",
   "Otro",
 ] as const;
+
+export const siteFooterLinks = [
+  { label: "Como funciona", href: "/#como-funciona" },
+  { label: "Servicios", href: "/#servicios" },
+  { label: "Confianza", href: "/#confianza" },
+  { label: "Registro", href: "/#registro" },
+  { label: "Contacto", href: "mailto:hola@domo.hn" },
+] as const;
+
+export const siteNavItems = siteFooterLinks.slice(0, 4);
+
+export const siteSocialLinks = {
+  facebook: "#",
+  instagram: "#",
+} as const;

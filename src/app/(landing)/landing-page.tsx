@@ -1,7 +1,6 @@
-import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteNav } from "@/components/layout/site-nav";
+import { siteNavItems } from "@/constants/site-text";
 
-import { footerLinks, landingNavItems } from "./_data/landing-data";
 import { HeroSection } from "./_sections/hero/hero-section";
 import { HowItWorksSection } from "./_sections/how-it-works/how-it-works-section";
 import { MainCtaSection } from "./_sections/main-cta/main-cta-section";
@@ -13,7 +12,7 @@ import styles from "./landing-page.module.css";
 export function LandingPage() {
   return (
     <>
-      <SiteNav items={landingNavItems} />
+      <SiteNav items={siteNavItems} />
       <main className={styles.page}>
         <HeroSection />
         <ServicesSection />
@@ -22,7 +21,6 @@ export function LandingPage() {
         <MainCtaSection />
         <RegistrationSection />
       </main>
-      <SiteFooter links={footerLinks} />
     </>
   );
 }

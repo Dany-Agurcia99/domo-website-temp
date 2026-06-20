@@ -2,10 +2,16 @@ import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { Outfit, Plus_Jakarta_Sans } from "next/font/google";
 
-import { siteText } from "@/constants/site-text";
+import { SiteFooter } from "@/components/layout/site-footer";
+import {
+  siteFooterLinks,
+  siteSocialLinks,
+  siteText,
+} from "@/constants/site-text";
 import { themeCssVariables } from "@/constants/theme";
 
 import "./globals.css";
+import styles from "./layout.module.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-main",
@@ -36,8 +42,10 @@ export default function RootLayout({
       lang="es"
       className={`${plusJakartaSans.variable} ${outfit.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col" style={cssVariables}>
-        {children}
+      <body style={cssVariables}>
+        <div className={styles.pageLayer}>{children}</div>
+        <div className={styles.footerRevealSpace} aria-hidden="true" />
+        <SiteFooter links={siteFooterLinks} socialLinks={siteSocialLinks} />
       </body>
     </html>
   );
