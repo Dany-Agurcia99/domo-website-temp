@@ -44,13 +44,13 @@ export function SiteNav({ items }: { items: readonly NavItem[] }) {
         <Link
           className={styles.logoLink}
           href="/#top"
-          aria-label="DOMO inicio"
+          aria-label="domo inicio"
           onClick={() => setMenuOpen(false)}
         >
           <Image
             className={styles.logo}
             src={domoLogo}
-            alt="DOMO"
+            alt="domo"
             priority
           />
         </Link>

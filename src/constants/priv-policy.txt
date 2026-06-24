@@ -1,15 +1,15 @@
 Última actualización: 23 de junio de 2026.
-Responsable del tratamiento: DOMO, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “DOMO”, “nosotros” o la “Empresa”).
+Responsable del tratamiento: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “domo”, “nosotros” o la “Empresa”).
 Contacto de privacidad: admin@grupo-noma.com.
-Esta Política explica cómo tratamos los datos personales recopilados mediante el sitio de prerregistro de DOMO. No regula todavía el tratamiento de datos de la futura aplicación, que contará con una política actualizada antes de su lanzamiento.
+Esta Política explica cómo tratamos los datos personales recopilados mediante el sitio de prerregistro de domo. No regula todavía el tratamiento de datos de la futura aplicación, que contará con una política actualizada antes de su lanzamiento.
 
 1. DATOS QUE RECOPILAMOS
 1.1. Datos proporcionados directamente: nombre, correo electrónico, departamento de Honduras, plataforma móvil de interés, interés en participar como cliente, tasker o ambos, y número telefónico cuando la persona decida proporcionarlo.
-1.2. Datos técnicos y de seguridad: fecha y hora del registro, registros técnicos generados por nuestros proveedores de infraestructura y un identificador criptográfico derivado de la dirección IP para limitar envíos abusivos. DOMO no almacena la dirección IP sin transformar en su tabla de rate limiting.
+1.2. Datos técnicos y de seguridad: fecha y hora del registro, registros técnicos generados por nuestros proveedores de infraestructura y un identificador criptográfico derivado de la dirección IP para limitar envíos abusivos. domo no almacena la dirección IP sin transformar en su tabla de rate limiting.
 1.3. No solicitamos contraseñas, documentos de identidad, información bancaria, datos de pago ni categorías sensibles de información mediante este formulario.
 
 2. PARA QUÉ UTILIZAMOS LOS DATOS
-2.1. Administrar la lista de prerregistro y enviar una notificación cuando DOMO esté disponible.
+2.1. Administrar la lista de prerregistro y enviar una notificación cuando domo esté disponible.
 2.2. Conocer la demanda por departamento, plataforma y tipo de participación para planificar el lanzamiento.
 2.3. Detectar registros duplicados, proteger el formulario, aplicar límites de envío y prevenir actividad automatizada o abusiva.
 2.4. Atender solicitudes relacionadas con acceso, corrección o eliminación de datos.
@@ -28,7 +28,7 @@ Esta Política explica cómo tratamos los datos personales recopilados mediante 
 5. CON QUIÉN COMPARTIMOS LOS DATOS
 5.1. No vendemos ni alquilamos datos personales.
 5.2. Podemos compartirlos únicamente con proveedores que nos ayudan a operar el sitio, alojar la aplicación, almacenar la base de datos y enviar la futura notificación. Actualmente utilizamos infraestructura de Vercel y Supabase.
-5.3. También podremos comunicar información cuando sea razonablemente necesario para cumplir una obligación legal, atender una orden válida de autoridad o proteger los derechos y la seguridad de DOMO y de terceros.
+5.3. También podremos comunicar información cuando sea razonablemente necesario para cumplir una obligación legal, atender una orden válida de autoridad o proteger los derechos y la seguridad de domo y de terceros.
 5.4. Los proveedores actúan conforme a sus propios términos y compromisos de seguridad y reciben únicamente la información necesaria para prestar sus servicios.
 
 6. TRANSFERENCIAS Y UBICACIÓN
@@ -52,7 +52,7 @@ Esta Política explica cómo tratamos los datos personales recopilados mediante 
 10.2. Nuestros proveedores de alojamiento pueden generar registros técnicos indispensables para seguridad, funcionamiento y diagnóstico. Si incorporamos analítica, publicidad o tecnologías que requieran información adicional, actualizaremos esta Política y mostraremos los avisos correspondientes.
 
 11. NOTIFICACIÓN DE LANZAMIENTO
-11.1. Utilizaremos el correo electrónico y, si fue proporcionado, el teléfono para notificar la disponibilidad de DOMO. La finalidad del prerregistro es realizar esta comunicación de lanzamiento, no enviar mensajes recurrentes.
+11.1. Utilizaremos el correo electrónico y, si fue proporcionado, el teléfono para notificar la disponibilidad de domo. La finalidad del prerregistro es realizar esta comunicación de lanzamiento, no enviar mensajes recurrentes.
 11.2. La persona puede solicitar su eliminación antes de recibir la notificación mediante el correo de contacto indicado.
 
 12. CAMBIOS A ESTA POLÍTICA
@@ -60,5 +60,5 @@ Esta Política explica cómo tratamos los datos personales recopilados mediante 
 12.2. Si pretendemos utilizar los datos existentes para una finalidad sustancialmente diferente, informaremos a las personas afectadas y solicitaremos una nueva autorización cuando corresponda.
 
 13. CONTACTO
-13.1. Responsable: DOMO, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.
+13.1. Responsable: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.
 13.2. Correo para privacidad, acceso, corrección, eliminación y consultas generales: admin@grupo-noma.com.

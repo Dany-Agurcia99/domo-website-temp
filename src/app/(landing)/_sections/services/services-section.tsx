@@ -46,7 +46,7 @@ export function ServicesSection() {
         </SectionHeader>
       </Container>
 
-      <div className={styles.grid} aria-label="Servicios DOMO">
+      <div className={styles.grid} aria-label="Servicios domo">
         {landingServices.map((service) => (
           <ServiceTile
             key={service.id}

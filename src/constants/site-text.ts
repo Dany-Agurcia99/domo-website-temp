@@ -7,7 +7,7 @@ export const siteText = {
   form: {
     title: "Reserva tu lugar",
     description:
-      "Completa tus datos para avisarte cuando DOMO llegue a tu zona.",
+      "Completa tus datos para avisarte cuando domo llegue a tu zona.",
     labels: {
       fullName: "Nombre",
       email: "Correo",

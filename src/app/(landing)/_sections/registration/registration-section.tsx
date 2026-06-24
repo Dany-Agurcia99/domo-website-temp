@@ -10,10 +10,10 @@ export function RegistrationSection() {
         <div className={styles.grid}>
           <div className={styles.copy}>
             <p className={styles.eyebrow}>Registro</p>
-            <h2>Reserva tu lugar en la primera ola de DOMO.</h2>
+            <h2>Reserva tu lugar en la primera ola de domo.</h2>
             <p>
               Estamos preparando el piloto por departamento y plataforma. Tu registro
-              nos ayuda a conocer cómo quieres formar parte de DOMO.
+              nos ayuda a conocer cómo quieres formar parte de domo.
             </p>
           </div>
 

@@ -1,10 +1,10 @@
 Última actualización: 23 de junio de 2026.
-Operador del sitio: DOMO, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “DOMO”, “nosotros” o la “Empresa”).
-AVISO IMPORTANTE: ESTE SITIO TIENE COMO ÚNICO OBJETIVO RECIBIR PRERREGISTROS PARA INFORMAR SOBRE EL FUTURO LANZAMIENTO DE DOMO. EL PRERREGISTRO NO CREA UNA CUENTA, NO CONSTITUYE UNA RESERVA, NO GARANTIZA ACCESO A LA APLICACIÓN Y NO IMPLICA LA CONTRATACIÓN DE SERVICIO ALGUNO.
+Operador del sitio: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “domo”, “nosotros” o la “Empresa”).
+AVISO IMPORTANTE: ESTE SITIO TIENE COMO ÚNICO OBJETIVO RECIBIR PRERREGISTROS PARA INFORMAR SOBRE EL FUTURO LANZAMIENTO DE domo. EL PRERREGISTRO NO CREA UNA CUENTA, NO CONSTITUYE UNA RESERVA, NO GARANTIZA ACCESO A LA APLICACIÓN Y NO IMPLICA LA CONTRATACIÓN DE SERVICIO ALGUNO.
 
 1. OBJETO Y ALCANCE
-1.1. Estos Términos y Condiciones regulan el acceso a este sitio web y el envío del formulario de prerregistro de DOMO en Honduras.
-1.2. Las funcionalidades, servicios y condiciones comerciales de la futura aplicación DOMO se regirán por términos independientes cuando la aplicación esté disponible. Estos Términos no regulan todavía la contratación de servicios para el hogar, pagos, cuentas de usuario ni relaciones con proveedores o taskers.
+1.1. Estos Términos y Condiciones regulan el acceso a este sitio web y el envío del formulario de prerregistro de domo en Honduras.
+1.2. Las funcionalidades, servicios y condiciones comerciales de la futura aplicación domo se regirán por términos independientes cuando la aplicación esté disponible. Estos Términos no regulan todavía la contratación de servicios para el hogar, pagos, cuentas de usuario ni relaciones con proveedores o taskers.
 
 2. ACEPTACIÓN Y CAPACIDAD
 2.1. Al enviar el formulario, la persona declara haber leído y aceptado estos Términos y la Política de Privacidad.
@@ -13,23 +13,23 @@ AVISO IMPORTANTE: ESTE SITIO TIENE COMO ÚNICO OBJETIVO RECIBIR PRERREGISTROS PA
 3. FUNCIONAMIENTO DEL PRERREGISTRO
 3.1. Para prerregistrarse se solicitará nombre, correo electrónico, departamento, plataforma móvil de interés y el rol que interesa a la persona. El número telefónico es opcional.
 3.2. La persona se compromete a proporcionar información propia, lícita y razonablemente exacta, y a no utilizar datos de terceros sin autorización.
-3.3. DOMO utilizará los datos de contacto para enviar una notificación cuando la aplicación esté disponible. El prerregistro no obliga a DOMO a lanzar la aplicación en una fecha determinada, ofrecerla en una zona específica, admitir a todas las personas registradas ni mantener las características descritas actualmente en el sitio.
-3.4. DOMO podrá eliminar registros duplicados, evidentemente falsos, automatizados, abusivos o contrarios a estos Términos.
+3.3. domo utilizará los datos de contacto para enviar una notificación cuando la aplicación esté disponible. El prerregistro no obliga a domo a lanzar la aplicación en una fecha determinada, ofrecerla en una zona específica, admitir a todas las personas registradas ni mantener las características descritas actualmente en el sitio.
+3.4. domo podrá eliminar registros duplicados, evidentemente falsos, automatizados, abusivos o contrarios a estos Términos.
 
 4. USO ACEPTABLE
 4.1. Está prohibido utilizar el sitio para enviar información ilícita, suplantar a otra persona, introducir código malicioso, interferir con su funcionamiento, intentar acceder a sistemas o datos sin autorización o generar registros mediante automatización abusiva.
-4.2. DOMO podrá limitar temporalmente los envíos, bloquear actividad abusiva y adoptar medidas razonables de seguridad para proteger el sitio y su base de datos.
+4.2. domo podrá limitar temporalmente los envíos, bloquear actividad abusiva y adoptar medidas razonables de seguridad para proteger el sitio y su base de datos.
 
 5. PROPIEDAD INTELECTUAL
-5.1. El nombre DOMO, sus logotipos, diseño, textos, gráficos, software y demás elementos del sitio pertenecen a la Empresa o se utilizan con autorización. El acceso al sitio no concede licencia para copiarlos, modificarlos, distribuirlos o explotarlos comercialmente.
+5.1. El nombre domo, sus logotipos, diseño, textos, gráficos, software y demás elementos del sitio pertenecen a la Empresa o se utilizan con autorización. El acceso al sitio no concede licencia para copiarlos, modificarlos, distribuirlos o explotarlos comercialmente.
 
 6. SERVICIOS DE TERCEROS
 6.1. El sitio depende de proveedores tecnológicos de alojamiento, infraestructura, base de datos y comunicaciones. Las interrupciones o fallas de dichos proveedores pueden afectar temporalmente la disponibilidad del sitio.
-6.2. Los enlaces a sitios de terceros se proporcionan únicamente como referencia. DOMO no controla ni responde por sus contenidos o prácticas.
+6.2. Los enlaces a sitios de terceros se proporcionan únicamente como referencia. domo no controla ni responde por sus contenidos o prácticas.
 
 7. DISPONIBILIDAD Y RESPONSABILIDAD
-7.1. El sitio y el prerregistro se ofrecen “tal cual” y según disponibilidad. DOMO procurará mantenerlos operativos y seguros, pero no garantiza disponibilidad ininterrumpida, ausencia absoluta de errores ni una fecha concreta de lanzamiento.
-7.2. En la máxima medida permitida por la legislación hondureña, DOMO no será responsable por daños indirectos o pérdidas derivadas exclusivamente de interrupciones, errores técnicos, información incorrecta proporcionada por la persona o expectativas sobre el futuro lanzamiento.
+7.1. El sitio y el prerregistro se ofrecen “tal cual” y según disponibilidad. domo procurará mantenerlos operativos y seguros, pero no garantiza disponibilidad ininterrumpida, ausencia absoluta de errores ni una fecha concreta de lanzamiento.
+7.2. En la máxima medida permitida por la legislación hondureña, domo no será responsable por daños indirectos o pérdidas derivadas exclusivamente de interrupciones, errores técnicos, información incorrecta proporcionada por la persona o expectativas sobre el futuro lanzamiento.
 7.3. Nada en estos Términos excluye derechos o responsabilidades que no puedan limitarse conforme a la legislación aplicable.
 
 8. DATOS PERSONALES
@@ -37,8 +37,8 @@ AVISO IMPORTANTE: ESTE SITIO TIENE COMO ÚNICO OBJETIVO RECIBIR PRERREGISTROS PA
 8.2. La persona puede solicitar acceso, corrección o eliminación de sus datos escribiendo a admin@grupo-noma.com.
 
 9. MODIFICACIONES
-9.1. DOMO podrá actualizar estos Términos cuando cambie el sitio, el alcance del prerregistro o la normativa aplicable. La fecha de actualización aparecerá al inicio del documento.
-9.2. Las modificaciones sustanciales se aplicarán a partir de su publicación. Si el cambio requiere una nueva autorización para utilizar datos ya recopilados, DOMO la solicitará antes de realizar ese uso adicional.
+9.1. domo podrá actualizar estos Términos cuando cambie el sitio, el alcance del prerregistro o la normativa aplicable. La fecha de actualización aparecerá al inicio del documento.
+9.2. Las modificaciones sustanciales se aplicarán a partir de su publicación. Si el cambio requiere una nueva autorización para utilizar datos ya recopilados, domo la solicitará antes de realizar ese uso adicional.
 
 10. LEY APLICABLE
 10.1. Estos Términos se rigen por las leyes de la República de Honduras.
@@ -46,4 +46,4 @@ AVISO IMPORTANTE: ESTE SITIO TIENE COMO ÚNICO OBJETIVO RECIBIR PRERREGISTROS PA
 
 11. CONTACTO
 11.1. Para consultas sobre estos Términos o el prerregistro, puede escribir a admin@grupo-noma.com.
-11.2. DOMO — Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.
+11.2. domo — Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.

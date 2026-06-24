@@ -1,4 +1,4 @@
-# DOMO preregistro website
+# domo preregistro website
 
 Landing page de preregistro para una app de servicios, construida con Next.js App Router.
 

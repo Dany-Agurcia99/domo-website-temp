@@ -13,7 +13,7 @@ export function PhonePreview({ active }: { active: number }) {
         key={active}
         className={styles.mockScreenshot}
         src={stepScreenshots[active]}
-        alt={`Captura de la app DOMO para el paso ${active + 1}`}
+        alt={`Captura de la app domo para el paso ${active + 1}`}
       />
     </div>
   );

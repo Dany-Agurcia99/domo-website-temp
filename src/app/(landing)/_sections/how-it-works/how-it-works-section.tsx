@@ -59,7 +59,7 @@ export function HowItWorksSection() {
           </SectionHeader>
 
           <div className={styles.grid}>
-            <div className={styles.stepList} aria-label="Pasos para usar DOMO">
+            <div className={styles.stepList} aria-label="Pasos para usar domo">
               {landingSteps.map((step, index) => (
                 <StepCard
                   key={step.number}
