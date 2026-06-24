@@ -28,6 +28,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: siteText.metadata.title,
   description: siteText.metadata.description,
+  icons: {
+    icon: [{ url: "/domo-icon-white.png", type: "image/png" }],
+    shortcut: "/domo-icon-white.png",
+    apple: "/domo-icon-white.png",
+  },
 };
 
 const cssVariables = themeCssVariables as CSSProperties;

@@ -1,138 +1,49 @@
-Última actualización: 10 de junio de 2026
-Operador de la plataforma: [Razón social completa de Grupo NOMA, p. ej. "Grupo NOMA, S. de R.L. de C.V."], sociedad mercantil constituida conforme a las leyes de la República de Honduras, con Registro Tributario Nacional (RTN) número [●], inscrita en el Registro Mercantil de [●] bajo [●], con domicilio en [dirección completa], Tegucigalpa, M.D.C., Honduras (en adelante, "DOMO", "nosotros" o la "Empresa").
-AVISO IMPORTANTE: DOMO ES UNA PLATAFORMA TECNOLÓGICA DE INTERMEDIACIÓN. DOMO NO PRESTA LOS SERVICIOS PUBLICADOS EN LA PLATAFORMA, NO EMPLEA A LOS PROVEEDORES Y NO ES PARTE DEL CONTRATO DE SERVICIOS QUE SE CELEBRA DIRECTAMENTE ENTRE CLIENTES Y PROVEEDORES. AL USAR LA PLATAFORMA, USTED ACEPTA ESTOS TÉRMINOS EN SU TOTALIDAD. SI NO ESTÁ DE ACUERDO, NO DEBE USAR LA PLATAFORMA.
-1. DEFINICIONES
-Para efectos de estos Términos y Condiciones (los "Términos"):
-1.1. "Plataforma": el sitio web, las aplicaciones móviles y demás herramientas tecnológicas operadas por DOMO que permiten la conexión entre Clientes y Proveedores.
-1.2. "Usuario": toda persona que acceda o utilice la Plataforma, sea como Cliente o como Proveedor.
-1.3. "Cliente": Usuario que solicita, contrata y paga Servicios a través de la Plataforma.
-1.4. "Proveedor": persona natural o jurídica, trabajador independiente o contratista por cuenta propia, que ofrece y presta Servicios a Clientes utilizando la Plataforma como canal de contacto.
-1.5. "Servicios": los trabajos del hogar y servicios personales ofrecidos por los Proveedores, incluyendo de manera enunciativa pero no limitativa: plomería, electricidad, limpieza, jardinería, cerrajería, mecánica, fotografía, carpintería, pintura, fumigación, reparación de electrodomésticos, servicios para el hogar, cuidado de mascotas, peluquería y mudanzas.
-1.6. "Solicitud de Servicio": el requerimiento que un Cliente publica o dirige a un Proveedor a través de la Plataforma.
-1.7. "Contrato de Servicios": el acuerdo que se perfecciona directa y exclusivamente entre el Cliente y el Proveedor cuando el Proveedor acepta una Solicitud de Servicio. DOMO no es parte de dicho contrato.
-1.8. "Comisión": la contraprestación que DOMO cobra por sus servicios de intermediación tecnológica, conforme al esquema de tarifas vigente publicado en la Plataforma.
-1.9. "Tarifas": el conjunto de comisiones, cargos por servicio y demás importes aplicables al uso de la Plataforma.
-2. ACEPTACIÓN DE LOS TÉRMINOS
-2.1. Estos Términos constituyen un contrato vinculante entre el Usuario y DOMO. El registro de una cuenta, el acceso o el uso de la Plataforma implica la aceptación plena y sin reservas de estos Términos, de la Política de Privacidad y de las políticas complementarias publicadas en la Plataforma.
-2.2. La aceptación electrónica de estos Términos tiene plena validez conforme a la Ley sobre Comercio Electrónico y la legislación hondureña aplicable a las manifestaciones de voluntad por medios electrónicos.
-3. ELEGIBILIDAD
-3.1. Solo pueden registrarse y usar la Plataforma personas mayores de dieciocho (18) años con plena capacidad legal para contratar.
-3.2. Los Proveedores declaran y garantizan que: (a) cuentan con la capacidad, conocimientos, herramientas, licencias, permisos y habilitaciones que la ley o la práctica profesional exijan para los Servicios que ofrecen; (b) operan como trabajadores independientes por cuenta y riesgo propio; y (c) cumplen con sus obligaciones tributarias, municipales y de seguridad social que les correspondan.
-3.3. DOMO podrá rechazar, condicionar o revocar el registro de cualquier Usuario que no cumpla los requisitos de elegibilidad o que represente un riesgo para la comunidad de la Plataforma.
-4. CREACIÓN Y GESTIÓN DE CUENTAS
-4.1. Para usar la Plataforma, el Usuario debe crear una cuenta proporcionando información veraz, exacta, completa y actualizada.
-4.2. Cada Usuario es responsable de mantener la confidencialidad de sus credenciales de acceso y de toda actividad realizada desde su cuenta. El Usuario debe notificar de inmediato a DOMO cualquier uso no autorizado de su cuenta.
-4.3. Las cuentas son personales e intransferibles. Está prohibido crear cuentas con identidades falsas, suplantar a terceros, mantener múltiples cuentas con fines fraudulentos o ceder la cuenta a terceros.
-4.4. DOMO no será responsable por pérdidas derivadas del incumplimiento de esta sección por parte del Usuario.
-5. VERIFICACIÓN DE IDENTIDAD
-5.1. DOMO podrá solicitar a los Usuarios, y en particular a los Proveedores, documentación e información para verificar su identidad, incluyendo Documento Nacional de Identificación (DNI), RTN, comprobantes de domicilio, fotografías, referencias y, cuando la ley lo permita, constancias de antecedentes.
-5.2. Alcance limitado de la verificación. Las verificaciones que DOMO realice tienen carácter limitado y se basan en la información disponible al momento de efectuarse. DOMO no garantiza la idoneidad, honestidad, competencia técnica, solvencia ni conducta futura de ningún Usuario. La verificación no constituye certificación, aval ni recomendación profesional.
-5.3. El Cliente reconoce que es su responsabilidad ejercer juicio razonable al seleccionar un Proveedor, revisando su perfil, calificaciones y reseñas.
-5.4. La negativa a completar los procesos de verificación faculta a DOMO para suspender o cancelar la cuenta correspondiente.
-6. NATURALEZA DE LA PLATAFORMA Y RELACIÓN ENTRE LAS PARTES
-6.1. DOMO es exclusivamente un intermediario tecnológico. La Plataforma facilita el contacto, la contratación, la programación y el procesamiento de pagos entre Clientes y Proveedores. DOMO no presta, supervisa, dirige ni controla los Servicios.
-6.2. Inexistencia de relación laboral. Las partes declaran y reconocen expresamente que:
-a) No existe entre DOMO y los Proveedores relación laboral, de dependencia, subordinación, agencia, mandato, sociedad, asociación en participación, franquicia ni representación de ninguna naturaleza.
-b) Los Proveedores son trabajadores independientes que actúan por cuenta y riesgo propio, y deciden libremente: qué servicios ofrecer; qué Solicitudes de Servicio aceptar o rechazar; su disponibilidad, horarios y zonas de cobertura; las herramientas, materiales y métodos que utilizan; y su nivel de actividad dentro de la Plataforma, pudiendo además prestar servicios fuera de la Plataforma o a través de plataformas competidoras.
-c) DOMO no fija jornadas, no impone metas, no exige exclusividad, no suministra uniformes ni herramientas, no imparte instrucciones técnicas sobre la ejecución de los Servicios y no ejerce potestad disciplinaria laboral sobre los Proveedores.
-d) El Proveedor es el único responsable del cumplimiento de sus obligaciones fiscales (incluyendo Impuesto Sobre la Renta e Impuesto Sobre Ventas cuando aplique), municipales, de seguridad social y de cualquier otra obligación legal derivada de su actividad independiente.
-e) Ningún pago procesado a través de la Plataforma constituye salario, y la Comisión de DOMO no constituye retención laboral de ninguna especie.
-6.3. Inexistencia de relación laboral entre Clientes y Proveedores. Salvo pacto expreso distinto entre ellos, la contratación de Servicios puntuales a través de la Plataforma no genera relación laboral entre el Cliente y el Proveedor.
-6.4. El Contrato de Servicios se celebra única y directamente entre el Cliente y el Proveedor. Cualquier reclamación derivada de la ejecución, calidad, puntualidad, daños o incumplimiento de los Servicios deberá dirigirse contra el Proveedor o el Cliente, según corresponda.
-7. OBLIGACIONES DE LOS CLIENTES
-El Cliente se obliga a:
-7.1. Proporcionar información veraz y suficiente sobre el Servicio requerido, incluyendo descripción, ubicación, condiciones de acceso y cualquier riesgo conocido del lugar de trabajo.
-7.2. Garantizar condiciones razonables de seguridad y acceso al lugar donde se prestará el Servicio.
-7.3. Pagar el precio acordado exclusivamente a través de la Plataforma, conforme a la Sección 10.
-7.4. Tratar a los Proveedores con respeto, sin discriminación, acoso, violencia ni conductas intimidatorias.
-7.5. No solicitar servicios ilícitos, peligrosos, o que requieran licencias que el Proveedor manifieste no poseer.
-7.6. Calificar los Servicios de manera honesta y de buena fe.
-7.7. No utilizar la Plataforma para fines distintos a la contratación legítima de Servicios.
-8. OBLIGACIONES DE LOS PROVEEDORES
-El Proveedor se obliga a:
-8.1. Prestar los Servicios aceptados con diligencia, profesionalismo, puntualidad y conforme a las reglas del arte u oficio correspondiente.
-8.2. Contar y mantener vigentes las licencias, permisos, certificaciones y seguros que la ley o la naturaleza del Servicio exijan, y acreditarlos a DOMO cuando se le requiera.
-8.3. Utilizar herramientas, equipos y materiales propios, adecuados y en buen estado, salvo acuerdo distinto con el Cliente.
-8.4. Cumplir las normas de seguridad aplicables y adoptar precauciones razonables para evitar daños a personas y bienes.
-8.5. Responder directamente frente al Cliente por daños, pérdidas o perjuicios causados por su acción u omisión durante la prestación del Servicio.
-8.6. Recibir los pagos exclusivamente a través de la Plataforma respecto de Servicios originados en ella, absteniéndose de solicitar o aceptar pagos directos por fuera de la Plataforma (ver Sección 14.2).
-8.7. Emitir los comprobantes fiscales que la legislación hondureña exija por los Servicios prestados, cuando corresponda.
-8.8. Mantener actualizada su información de perfil, categorías de servicio y disponibilidad.
-8.9. Abstenerse de subcontratar o delegar Servicios sin consentimiento del Cliente y sin que el sustituto cumpla los requisitos de la Plataforma.
-8.10. Tratar a los Clientes con respeto y profesionalismo, y proteger la confidencialidad de la información del Cliente y de su domicilio.
-9. SOLICITUD, ACEPTACIÓN Y PRESTACIÓN DE SERVICIOS
-9.1. El Cliente publica o dirige una Solicitud de Servicio; la Plataforma puede sugerir Proveedores compatibles mediante criterios como categoría, ubicación, disponibilidad y calificaciones.
-9.2. El Proveedor es libre de aceptar o rechazar cualquier Solicitud de Servicio, sin que el rechazo genere sanción laboral alguna. DOMO podrá, no obstante, considerar métricas de cumplimiento de compromisos ya aceptados para efectos de confiabilidad de la Plataforma.
-9.3. El Contrato de Servicios se perfecciona entre Cliente y Proveedor al momento de la aceptación de la Solicitud por el Proveedor a través de la Plataforma.
-9.4. El precio del Servicio será el cotizado y aceptado a través de la Plataforma. Trabajos adicionales no contemplados deberán acordarse y documentarse mediante la Plataforma.
-10. PAGOS, COMISIONES E IMPUESTOS
-10.1. Pagos a través de la Plataforma. Todos los pagos por Servicios originados en la Plataforma deben procesarse a través de los medios de pago habilitados en ella. Los pagos pueden ser procesados por proveedores de servicios de pago terceros, sujetos a sus propios términos.
-10.2. Comisión de DOMO. Por sus servicios de intermediación tecnológica, DOMO cobrará la Comisión conforme al esquema de Tarifas vigente publicado en la Plataforma, el cual podrá actualizarse con notificación previa razonable a los Usuarios. La Comisión se deducirá del monto pagado por el Cliente antes de la liquidación al Proveedor, o se cobrará según el esquema vigente.
-10.3. Liquidación al Proveedor. DOMO liquidará al Proveedor el monto correspondiente, menos la Comisión y cargos aplicables, dentro de [●] días hábiles posteriores a la confirmación de finalización del Servicio, mediante el método de desembolso registrado.
-10.4. Retenciones y disputas. DOMO podrá retener temporalmente fondos cuando exista disputa activa, sospecha razonable de fraude, contracargo, o requerimiento de autoridad competente.
-10.5. Impuestos. Cada Usuario es responsable de sus propias obligaciones tributarias. La Comisión de DOMO estará sujeta al Impuesto Sobre Ventas (ISV) cuando la ley lo establezca. DOMO podrá efectuar las retenciones e informar a las autoridades fiscales lo que la legislación hondureña le exija.
-10.6. Contracargos. Si un pago es revertido por la entidad emisora, DOMO podrá debitar el monto correspondiente de futuras liquidaciones al Proveedor o requerir su reembolso, sin perjuicio de la investigación correspondiente.
-11. CANCELACIONES
-11.1. Cancelación por el Cliente. El Cliente podrá cancelar sin costo hasta [●] horas antes de la hora programada del Servicio. Las cancelaciones posteriores a dicho plazo podrán generar un cargo de cancelación equivalente a [●], destinado a compensar al Proveedor y/o los costos de la Plataforma.
-11.2. Cancelación por el Proveedor. El Proveedor deberá cancelar con la mayor antelación posible. Cancelaciones reiteradas, tardías o injustificadas podrán afectar su visibilidad en la Plataforma y dar lugar a suspensión, por tratarse de incumplimientos de compromisos contractuales asumidos voluntariamente.
-11.3. No presentación (no-show). La incomparecencia injustificada de cualquiera de las partes se tratará como cancelación tardía y podrá generar los cargos o consecuencias previstos en esta sección.
-11.4. Los plazos y cargos específicos de cancelación se detallan en la Política de Cancelaciones publicada en la Plataforma, que forma parte integrante de estos Términos.
-12. REEMBOLSOS Y RESOLUCIÓN DE INCIDENCIAS DE SERVICIO
-12.1. Si el Servicio no se prestó, o se prestó de forma sustancialmente distinta a lo acordado, el Cliente podrá presentar una reclamación a través de la Plataforma dentro de las [72] horas siguientes a la fecha programada o de finalización del Servicio.
-12.2. DOMO podrá, de buena fe y como facilitador, revisar la evidencia aportada por ambas partes y determinar, a su razonable discreción, la procedencia de un reembolso total o parcial con cargo a los fondos del Servicio en cuestión. Esta facilitación no convierte a DOMO en parte del Contrato de Servicios ni en garante del mismo.
-12.3. Los reembolsos aprobados se procesarán por el mismo medio de pago utilizado, dentro de los plazos del procesador de pagos correspondiente.
-12.4. Nada en esta sección limita los derechos irrenunciables que la Ley de Protección al Consumidor de Honduras reconozca al Cliente frente a quien corresponda.
-13. SISTEMA DE CALIFICACIONES Y RESEÑAS
-13.1. Al finalizar un Servicio, Cliente y Proveedor podrán calificarse mutuamente y publicar reseñas.
-13.2. Las reseñas deben ser veraces, basadas en experiencia real, y libres de lenguaje difamatorio, discriminatorio, obsceno o que revele datos personales de terceros.
-13.3. DOMO no edita el sentido de las reseñas, pero podrá remover aquellas que violen estos Términos, sean fraudulentas, manipuladas, o emitidas a cambio de contraprestación.
-13.4. Las calificaciones podrán incidir en la visibilidad de los perfiles dentro de la Plataforma como mecanismo de confianza de mercado, sin que ello constituya dirección o control laboral.
-14. CONDUCTAS PROHIBIDAS Y ANTIFRAUDE
-14.1. Está prohibido a todo Usuario: (a) usar la Plataforma con fines ilícitos; (b) publicar información falsa o engañosa; (c) suplantar identidades; (d) manipular calificaciones; (e) acosar, amenazar o discriminar a otros Usuarios; (f) introducir malware o vulnerar la seguridad de la Plataforma; (g) extraer datos de la Plataforma mediante scraping o medios automatizados; (h) usar la Plataforma para lavado de activos o financiamiento de actividades ilícitas.
-14.2. No elusión de la Plataforma. Durante la vigencia de su cuenta y por un período de [6/12] meses posteriores, los Usuarios se abstendrán de utilizar la Plataforma para identificar contrapartes y luego contratar o pagar por fuera de ella Servicios originados en la Plataforma, con el fin de evadir la Comisión. El incumplimiento faculta a DOMO a suspender o cancelar cuentas y a cobrar un cargo por elusión equivalente a [●].
-14.3. DOMO podrá emplear herramientas de monitoreo antifraude, verificación de transacciones y análisis de riesgo, y cooperará con las autoridades competentes en la investigación de ilícitos.
-15. SUSPENSIÓN Y CANCELACIÓN DE CUENTAS
-15.1. DOMO podrá suspender o cancelar cuentas, con o sin previo aviso según la gravedad, cuando exista: incumplimiento de estos Términos; fraude o sospecha razonable de fraude; conductas que pongan en riesgo a otros Usuarios; requerimiento de autoridad; o inactividad prolongada conforme a las políticas publicadas.
-15.2. El Usuario podrá cancelar su cuenta en cualquier momento desde la configuración de la Plataforma o solicitándolo al correo de soporte. La cancelación no extingue obligaciones pendientes (pagos, disputas activas, cargos).
-15.3. Las secciones que por su naturaleza deban subsistir (limitación de responsabilidad, indemnización, propiedad intelectual, ley aplicable y resolución de disputas, entre otras) sobrevivirán a la terminación.
-16. EXCLUSIÓN DE GARANTÍAS
-16.1. La Plataforma se proporciona "tal cual" y "según disponibilidad". En la máxima medida permitida por la ley hondureña, DOMO no garantiza: (a) la disponibilidad ininterrumpida o libre de errores de la Plataforma; (b) la calidad, idoneidad, seguridad, legalidad o puntualidad de los Servicios prestados por los Proveedores; (c) la veracidad de la información publicada por los Usuarios; ni (d) resultados específicos derivados del uso de la Plataforma.
-16.2. Ninguna comunicación, verbal o escrita, obtenida de DOMO creará garantía alguna no prevista expresamente en estos Términos.
-16.3. Esta exclusión no afecta los derechos irrenunciables que la legislación de protección al consumidor reconozca a los Usuarios.
-17. LIMITACIÓN DE RESPONSABILIDAD
-17.1. En la máxima medida permitida por la ley, DOMO no será responsable por: (a) actos, omisiones, negligencia, dolo, daños, hurtos, lesiones o incumplimientos atribuibles a Clientes o Proveedores; (b) la calidad o resultado de los Servicios; (c) disputas entre Usuarios; (d) daños indirectos, incidentales, consecuenciales, lucro cesante o pérdida de datos; (e) fallas atribuibles a terceros, incluyendo procesadores de pago y servicios de telecomunicaciones.
-17.2. Si, no obstante lo anterior, se determinara judicialmente responsabilidad de DOMO frente a un Usuario, la responsabilidad agregada total de DOMO se limitará al monto de las Comisiones efectivamente percibidas por DOMO de dicho Usuario durante los seis (6) meses anteriores al hecho generador, o a [L. ●], lo que resulte mayor.
-17.3. Nada en estos Términos excluye o limita responsabilidades que conforme a la ley hondureña no puedan excluirse o limitarse, incluyendo las derivadas de dolo o culpa grave de DOMO y los derechos irrenunciables del consumidor.
-18. INDEMNIZACIÓN
-18.1. Cada Usuario se obliga a indemnizar, defender y mantener indemne a DOMO, sus socios, directivos, empleados y representantes, frente a cualquier reclamación, demanda, sanción, daño, pérdida o gasto (incluyendo honorarios legales razonables) de terceros, derivada de: (a) su uso de la Plataforma en violación de estos Términos o de la ley; (b) los Servicios que preste o contrate; (c) la información o contenido que publique; (d) su incumplimiento de obligaciones fiscales, laborales o regulatorias propias; o (e) daños causados a terceros con ocasión de la prestación de Servicios.
-19. PROPIEDAD INTELECTUAL
-19.1. La Plataforma, su código fuente, diseño, interfaces, bases de datos, algoritmos, marcas (incluyendo "DOMO"), logotipos, nombres comerciales y demás elementos protegibles son propiedad de la Empresa o de sus licenciantes, y están protegidos por la Ley de Propiedad Industrial, la Ley del Derecho de Autor y de los Derechos Conexos de Honduras y los tratados internacionales aplicables.
-19.2. DOMO otorga al Usuario una licencia limitada, revocable, no exclusiva e intransferible para usar la Plataforma conforme a estos Términos. Queda prohibida la reproducción, modificación, ingeniería inversa, distribución o explotación no autorizada de la Plataforma.
-19.3. Contenido del Usuario. El Usuario conserva la titularidad del contenido que publique (fotografías, descripciones, reseñas), y otorga a DOMO una licencia gratuita, no exclusiva, mundial y por el plazo de protección legal, para alojar, reproducir, adaptar y comunicar públicamente dicho contenido con el fin de operar, promover y mejorar la Plataforma. El Usuario garantiza ser titular o contar con autorización sobre el contenido que publica.
-19.4. DOMO podrá remover contenido que infrinja derechos de terceros o estos Términos, y atenderá notificaciones de presunta infracción dirigidas a [correo de contacto legal].
-20. PRIVACIDAD Y PROTECCIÓN DE DATOS
-20.1. El tratamiento de datos personales se rige por la Política de Privacidad de DOMO, que forma parte integrante de estos Términos.
-20.2. Los Usuarios que, con ocasión de los Servicios, accedan a datos personales de otros Usuarios (nombres, direcciones, teléfonos), solo podrán usarlos para la ejecución del Servicio correspondiente, quedando prohibido cualquier otro uso, divulgación o conservación indebida.
-21. MODIFICACIONES DEL SERVICIO Y DE LOS TÉRMINOS
-21.1. DOMO podrá modificar, ampliar, restringir o descontinuar funcionalidades de la Plataforma en cualquier momento, procurando notificar con antelación razonable los cambios sustanciales.
-21.2. DOMO podrá modificar estos Términos. Las modificaciones se notificarán a través de la Plataforma o por correo electrónico con al menos [15] días de antelación a su entrada en vigor, salvo cambios exigidos por ley o necesarios por razones de seguridad, que podrán regir de inmediato. El uso continuado de la Plataforma tras la entrada en vigor constituye aceptación de los Términos modificados; en caso contrario, el Usuario deberá cesar el uso y podrá cancelar su cuenta.
-22. FUERZA MAYOR
-22.1. DOMO no será responsable por incumplimientos o retrasos causados por caso fortuito o fuerza mayor, incluyendo de manera enunciativa: desastres naturales, epidemias, conflictos armados, disturbios, actos de autoridad, cortes de energía o telecomunicaciones, fallas de internet, ciberataques de terceros y cualquier otro evento fuera de su control razonable.
-23. DISPOSICIONES GENERALES
-23.1. Cesión. El Usuario no podrá ceder sus derechos u obligaciones bajo estos Términos sin consentimiento previo y escrito de DOMO. DOMO podrá ceder su posición contractual a sociedades de su grupo o en el contexto de reorganizaciones empresariales, notificándolo a los Usuarios.
-23.2. Divisibilidad. Si alguna cláusula fuera declarada nula o inexigible, las demás conservarán plena validez, y la cláusula afectada se interpretará o sustituirá del modo que mejor refleje su finalidad.
-23.3. No renuncia. La falta de ejercicio de un derecho por DOMO no constituye renuncia al mismo.
-23.4. Acuerdo íntegro. Estos Términos, junto con la Política de Privacidad y las políticas publicadas en la Plataforma, constituyen el acuerdo completo entre el Usuario y DOMO respecto del uso de la Plataforma.
-23.5. Notificaciones. Las notificaciones a DOMO se dirigirán a [correo electrónico] o al domicilio indicado en el encabezado. Las notificaciones a los Usuarios se efectuarán mediante la Plataforma, el correo electrónico registrado u otros medios de contacto proporcionados.
-24. RESOLUCIÓN DE DISPUTAS, LEY APLICABLE Y JURISDICCIÓN
-24.1. Negociación directa. Las partes procurarán resolver de buena fe cualquier controversia con DOMO mediante reclamación previa al área de soporte, que será atendida en un plazo máximo de [15] días hábiles.
-24.2. Conciliación y arbitraje. Toda controversia entre el Usuario y DOMO derivada de estos Términos que no se resuelva en negociación directa se someterá a conciliación y, de no prosperar, a arbitraje de derecho, conforme a la Ley de Conciliación y Arbitraje (Decreto No. 161-2000), administrado por el Centro de Conciliación y Arbitraje de la Cámara de Comercio e Industrias de Tegucigalpa, con sede en Tegucigalpa, M.D.C., en idioma español y con un (1) árbitro.
-24.3. Derechos del consumidor. Lo anterior no impide ni limita el derecho de los Usuarios consumidores de acudir ante la Dirección General de Protección al Consumidor ni el ejercicio de derechos irrenunciables conforme a la Ley de Protección al Consumidor.
-24.4. Disputas entre Usuarios. Las controversias entre Clientes y Proveedores derivadas del Contrato de Servicios se resolverán directamente entre ellos. DOMO podrá facilitar voluntariamente la comunicación y la mediación informal, sin asumir obligación ni responsabilidad de resolverlas. Cada Usuario libera a DOMO de reclamaciones derivadas de disputas con otros Usuarios, en la máxima medida permitida por la ley.
-24.5. Ley aplicable y jurisdicción. Estos Términos se rigen por las leyes de la República de Honduras. Para todo aquello no sujeto a arbitraje, las partes se someten a la jurisdicción y competencia de los juzgados y tribunales de Tegucigalpa, Municipio del Distrito Central, con renuncia expresa a cualquier otro fuero que pudiera corresponderles.
-25. CONTACTO
-Para consultas sobre estos Términos:
-DOMO — [Razón social de Grupo NOMA]
-Correo: [soporte@domo.hn]
-Dirección: [●], Tegucigalpa, M.D.C., Honduras
-Teléfono: [●]
+Última actualización: 23 de junio de 2026.
+Operador del sitio: DOMO, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “DOMO”, “nosotros” o la “Empresa”).
+AVISO IMPORTANTE: ESTE SITIO TIENE COMO ÚNICO OBJETIVO RECIBIR PRERREGISTROS PARA INFORMAR SOBRE EL FUTURO LANZAMIENTO DE DOMO. EL PRERREGISTRO NO CREA UNA CUENTA, NO CONSTITUYE UNA RESERVA, NO GARANTIZA ACCESO A LA APLICACIÓN Y NO IMPLICA LA CONTRATACIÓN DE SERVICIO ALGUNO.
+
+1. OBJETO Y ALCANCE
+1.1. Estos Términos y Condiciones regulan el acceso a este sitio web y el envío del formulario de prerregistro de DOMO en Honduras.
+1.2. Las funcionalidades, servicios y condiciones comerciales de la futura aplicación DOMO se regirán por términos independientes cuando la aplicación esté disponible. Estos Términos no regulan todavía la contratación de servicios para el hogar, pagos, cuentas de usuario ni relaciones con proveedores o taskers.
+
+2. ACEPTACIÓN Y CAPACIDAD
+2.1. Al enviar el formulario, la persona declara haber leído y aceptado estos Términos y la Política de Privacidad.
+2.2. No establecemos una edad mínima específica para el prerregistro. Cuando la legislación aplicable requiera autorización de un padre, madre, tutor o representante legal, la persona menor de edad declara contar con dicha autorización antes de enviar sus datos.
+
+3. FUNCIONAMIENTO DEL PRERREGISTRO
+3.1. Para prerregistrarse se solicitará nombre, correo electrónico, departamento, plataforma móvil de interés y el rol que interesa a la persona. El número telefónico es opcional.
+3.2. La persona se compromete a proporcionar información propia, lícita y razonablemente exacta, y a no utilizar datos de terceros sin autorización.
+3.3. DOMO utilizará los datos de contacto para enviar una notificación cuando la aplicación esté disponible. El prerregistro no obliga a DOMO a lanzar la aplicación en una fecha determinada, ofrecerla en una zona específica, admitir a todas las personas registradas ni mantener las características descritas actualmente en el sitio.
+3.4. DOMO podrá eliminar registros duplicados, evidentemente falsos, automatizados, abusivos o contrarios a estos Términos.
+
+4. USO ACEPTABLE
+4.1. Está prohibido utilizar el sitio para enviar información ilícita, suplantar a otra persona, introducir código malicioso, interferir con su funcionamiento, intentar acceder a sistemas o datos sin autorización o generar registros mediante automatización abusiva.
+4.2. DOMO podrá limitar temporalmente los envíos, bloquear actividad abusiva y adoptar medidas razonables de seguridad para proteger el sitio y su base de datos.
+
+5. PROPIEDAD INTELECTUAL
+5.1. El nombre DOMO, sus logotipos, diseño, textos, gráficos, software y demás elementos del sitio pertenecen a la Empresa o se utilizan con autorización. El acceso al sitio no concede licencia para copiarlos, modificarlos, distribuirlos o explotarlos comercialmente.
+
+6. SERVICIOS DE TERCEROS
+6.1. El sitio depende de proveedores tecnológicos de alojamiento, infraestructura, base de datos y comunicaciones. Las interrupciones o fallas de dichos proveedores pueden afectar temporalmente la disponibilidad del sitio.
+6.2. Los enlaces a sitios de terceros se proporcionan únicamente como referencia. DOMO no controla ni responde por sus contenidos o prácticas.
+
+7. DISPONIBILIDAD Y RESPONSABILIDAD
+7.1. El sitio y el prerregistro se ofrecen “tal cual” y según disponibilidad. DOMO procurará mantenerlos operativos y seguros, pero no garantiza disponibilidad ininterrumpida, ausencia absoluta de errores ni una fecha concreta de lanzamiento.
+7.2. En la máxima medida permitida por la legislación hondureña, DOMO no será responsable por daños indirectos o pérdidas derivadas exclusivamente de interrupciones, errores técnicos, información incorrecta proporcionada por la persona o expectativas sobre el futuro lanzamiento.
+7.3. Nada en estos Términos excluye derechos o responsabilidades que no puedan limitarse conforme a la legislación aplicable.
+
+8. DATOS PERSONALES
+8.1. El tratamiento de datos personales se describe en la Política de Privacidad, que forma parte de estos Términos.
+8.2. La persona puede solicitar acceso, corrección o eliminación de sus datos escribiendo a admin@grupo-noma.com.
+
+9. MODIFICACIONES
+9.1. DOMO podrá actualizar estos Términos cuando cambie el sitio, el alcance del prerregistro o la normativa aplicable. La fecha de actualización aparecerá al inicio del documento.
+9.2. Las modificaciones sustanciales se aplicarán a partir de su publicación. Si el cambio requiere una nueva autorización para utilizar datos ya recopilados, DOMO la solicitará antes de realizar ese uso adicional.
+
+10. LEY APLICABLE
+10.1. Estos Términos se rigen por las leyes de la República de Honduras.
+10.2. Las partes procurarán resolver de buena fe cualquier inquietud mediante contacto directo. Cuando no sea posible, serán competentes las autoridades y tribunales hondureños que correspondan conforme a la ley.
+
+11. CONTACTO
+11.1. Para consultas sobre estos Términos o el prerregistro, puede escribir a admin@grupo-noma.com.
+11.2. DOMO — Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.

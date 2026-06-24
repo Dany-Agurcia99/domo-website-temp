@@ -12,8 +12,8 @@ export function RegistrationSection() {
             <p className={styles.eyebrow}>Registro</p>
             <h2>Reserva tu lugar en la primera ola de DOMO.</h2>
             <p>
-              Estamos validando demanda por ciudad y tipo de servicio. Tu registro
-              nos ayuda a priorizar zonas, horarios y categorias para el piloto.
+              Estamos preparando el piloto por departamento y plataforma. Tu registro
+              nos ayuda a conocer cómo quieres formar parte de DOMO.
             </p>
           </div>
 

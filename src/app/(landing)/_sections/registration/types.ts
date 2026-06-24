@@ -2,10 +2,9 @@ export type PreregistrationFormValues = {
   fullName: string;
   email: string;
   phone: string;
-  city: string;
-  serviceType: string;
-  leadSource: string;
-  details: string;
+  department: string;
+  platform: string;
+  interest: string;
 };
 
 export type PreregistrationFieldErrorMap = Partial<
@@ -23,10 +22,9 @@ export const emptyPreregistrationFormValues: PreregistrationFormValues = {
   fullName: "",
   email: "",
   phone: "",
-  city: "",
-  serviceType: "",
-  leadSource: "",
-  details: "",
+  department: "",
+  platform: "",
+  interest: "",
 };
 
 export const initialPreregistrationFormState: PreregistrationFormState = {

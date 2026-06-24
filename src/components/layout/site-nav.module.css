@@ -19,6 +19,7 @@
 }
 
 .nav {
+  position: relative;
   width: min(100%, 80rem);
   min-height: 3.5rem;
   margin: 0 auto;
@@ -34,15 +35,18 @@
   flex-shrink: 0;
 }
 
+.logo {
+  width: auto;
+  height: 2.75rem;
+}
+
 .links {
   display: none;
   align-items: center;
   gap: 1.6rem;
-  margin-left: auto;
 }
 
-.links a,
-.cta {
+.links a {
   font-size: 0.88rem;
   font-weight: 700;
 }
@@ -56,32 +60,81 @@
   color: var(--color-domo-secondary);
 }
 
-.cta {
+.menuToggle {
+  width: 2.75rem;
+  height: 2.75rem;
   margin-left: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.45rem;
-  min-height: 2.5rem;
-  padding: 0.7rem 1rem;
-  border-radius: 999px;
-  background: var(--color-domo-secondary);
-  color: var(--color-domo-primary);
-  font-weight: 800;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 18%, transparent);
+  border-radius: 0.85rem;
+  background: color-mix(in srgb, var(--color-domo-white) 8%, transparent);
+  color: var(--color-domo-white);
+  cursor: pointer;
+  transition:
+    color 180ms ease,
+    background 180ms ease,
+    border-color 180ms ease;
+}
+
+.menuToggle:hover {
+  border-color: color-mix(in srgb, var(--color-domo-secondary) 65%, transparent);
+  background: color-mix(in srgb, var(--color-domo-white) 13%, transparent);
+  color: var(--color-domo-secondary);
+}
+
+.mobileMenu {
+  position: absolute;
+  top: calc(100% + 0.75rem);
+  left: 1.25rem;
+  right: 1.25rem;
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--color-domo-white) 16%, transparent);
+  border-radius: 1.15rem;
+  background: color-mix(in srgb, var(--color-domo-gradientEnd) 94%, transparent);
+  box-shadow: 0 24px 50px -28px rgb(0 0 0 / 70%);
+  backdrop-filter: blur(22px) saturate(150%);
+}
+
+.mobileMenu a {
+  padding: 0.9rem 1rem;
+  border-radius: 0.75rem;
+  color: color-mix(in srgb, var(--color-domo-white) 88%, transparent);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: center;
+  transition:
+    color 180ms ease,
+    background 180ms ease;
+}
+
+.mobileMenu a:hover {
+  background: color-mix(in srgb, var(--color-domo-white) 9%, transparent);
+  color: var(--color-domo-secondary);
 }
 
 @media (min-width: 900px) {
+  .nav {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+
+  .logoLink {
+    grid-column: 1;
+    justify-self: start;
+  }
+
   .links {
+    grid-column: 2;
     display: flex;
+    justify-self: center;
   }
 
-  .cta {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 520px) {
-  .cta {
-    width: 100%;
+  .menuToggle,
+  .mobileMenu {
+    display: none;
   }
 }

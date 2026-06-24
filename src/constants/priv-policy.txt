@@ -1,92 +1,64 @@
-Última actualización: 10 de junio de 2026
-Responsable del tratamiento: [Razón social completa de Grupo NOMA], RTN[●], con domicilio en[dirección completa], Tegucigalpa, M.D.C., Honduras("DOMO", "nosotros").
-Esta Política de Privacidad describe cómo DOMO recopila, usa, comparte y protege los datos personales de los usuarios de su plataforma web y aplicaciones móviles(la "Plataforma").Aplica a Clientes, Proveedores y visitantes.
-Honduras reconoce constitucionalmente la garantía de hábeas data(artículo 182 de la Constitución de la República) para la protección de datos personales.En ausencia de una ley general de protección de datos vigente, DOMO adopta voluntariamente estándares internacionales de buenas prácticas en la materia, los cuales se reflejan en esta Política.
+Última actualización: 23 de junio de 2026.
+Responsable del tratamiento: DOMO, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “DOMO”, “nosotros” o la “Empresa”).
+Contacto de privacidad: admin@grupo-noma.com.
+Esta Política explica cómo tratamos los datos personales recopilados mediante el sitio de prerregistro de DOMO. No regula todavía el tratamiento de datos de la futura aplicación, que contará con una política actualizada antes de su lanzamiento.
+
 1. DATOS QUE RECOPILAMOS
-1.1.Datos proporcionados por el usuario
-•	Datos de registro: nombre completo, correo electrónico, número de teléfono, contraseña, fotografía de perfil.
-•	Datos de identidad y verificación(principalmente Proveedores): Documento Nacional de Identificación(DNI), RTN, comprobante de domicilio, fotografías de verificación, referencias, licencias o certificaciones profesionales y, cuando la ley lo permita y el Proveedor lo autorice, constancias de antecedentes.
-•	Datos de perfil de Proveedor: categorías de servicio, descripción, experiencia, zonas de cobertura, disponibilidad, portafolio fotográfico.
-•	Datos de la solicitud de servicio: descripción del trabajo, dirección donde se prestará el servicio, fotografías del problema o lugar, fechas y horarios.
-•	Comunicaciones: mensajes intercambiados a través del chat de la Plataforma, comunicaciones con soporte, reclamaciones y evidencias aportadas en disputas.
-•	Reseñas y calificaciones.
-1.2.Datos recopilados automáticamente
-•	Datos de uso: páginas visitadas, funciones utilizadas, búsquedas, interacciones, fecha y hora de acceso.
-•	Datos del dispositivo: modelo, sistema operativo, identificadores del dispositivo, idioma, dirección IP, tipo de navegador.
-•	Datos de ubicación: ver Sección 4.
-•	Cookies y tecnologías similares: ver Sección 7.
-1.3.Datos de pago
-Los pagos son procesados por proveedores de servicios de pago terceros.DOMO no almacena números completos de tarjetas ni códigos de seguridad; recibe únicamente datos limitados de la transacción(monto, estado, últimos dígitos, método de pago) necesarios para operar la Plataforma.Para liquidar pagos a Proveedores, recopilamos datos de su cuenta bancaria o método de desembolso.
-1.4.Datos de terceros
-Podemos recibir datos de procesadores de pago, servicios de verificación de identidad o antecedentes(con su autorización), y autoridades competentes cuando la ley lo permita.
-2. FINALIDADES DEL TRATAMIENTO
-Tratamos los datos personales para:
-1.	Crear y gestionar cuentas de usuario.
-2.	Verificar la identidad de los usuarios y la información de los Proveedores.
-3.	Conectar Clientes con Proveedores compatibles(incluyendo recomendaciones basadas en categoría, ubicación, disponibilidad y calificaciones).
-4.	Facilitar la contratación, programación, ejecución y seguimiento de los servicios.
-5.	Procesar pagos, comisiones, reembolsos y liquidaciones.
-6.	Operar el sistema de calificaciones y reseñas.
-7.	Atender soporte, reclamaciones y gestionar disputas entre usuarios.
-8.	Prevenir, detectar e investigar fraude, suplantación, abuso y actividades ilícitas, y proteger la seguridad de los usuarios y de la Plataforma.
-9.	Cumplir obligaciones legales, fiscales, contables y regulatorias, y atender requerimientos de autoridades competentes.
-10.	Enviar notificaciones operativas y transaccionales(confirmaciones, recordatorios, cambios de estado).
-11.	Enviar comunicaciones comerciales y promocionales, cuando el usuario lo haya consentido, con posibilidad de darse de baja en cualquier momento.
-12.	Analizar y mejorar la Plataforma, desarrollar nuevas funcionalidades y elaborar estadísticas con datos agregados o anonimizados.
-3. BASE LEGAL DEL TRATAMIENTO
-Tratamos los datos sobre las siguientes bases:
-•	Ejecución contractual: datos necesarios para prestar el servicio de intermediación que el usuario contrata al aceptar los Términos y Condiciones(registro, conexión con contrapartes, pagos, soporte).
-•	Consentimiento: otorgado al aceptar esta Política, y de forma específica para tratamientos como geolocalización precisa, comunicaciones promocionales y verificaciones de antecedentes.El consentimiento puede revocarse en cualquier momento, sin efectos retroactivos.
-•	Interés legítimo: prevención de fraude, seguridad de la Plataforma, mejora del servicio y defensa de derechos en procedimientos legales, siempre que no prevalezcan los derechos del usuario.
-•	Cumplimiento de obligaciones legales: requerimientos fiscales, contables, de prevención de lavado de activos y de autoridades competentes conforme a la legislación hondureña.
-4. USO DE INFORMACIÓN DE UBICACIÓN
-4.1.La Plataforma utiliza datos de ubicación para: mostrar Proveedores cercanos, asignar y recomendar servicios por zona, estimar tiempos de llegada y mejorar la seguridad de los encuentros.
-4.2.La geolocalización precisa del dispositivo solo se recopila con el permiso otorgado por el usuario en la configuración de su dispositivo, y puede desactivarse en cualquier momento.Su desactivación puede limitar funcionalidades(p.ej., recomendaciones por cercanía).
-4.3.La dirección del lugar del servicio proporcionada por el Cliente se comparte con el Proveedor únicamente cuando este acepta la solicitud, y solo para la ejecución del servicio.
-5. USO DE DATOS DE CONTACTO
-5.1.Usamos el correo y teléfono del usuario para comunicaciones operativas(verificación de cuenta, confirmaciones, recordatorios, alertas de seguridad, soporte y disputas).
-5.2.Los datos de contacto entre Cliente y Proveedor se comparten de forma limitada y únicamente para coordinar el servicio aceptado.Recomendamos mantener las comunicaciones dentro del chat de la Plataforma.Está prohibido usar los datos de contacto de otros usuarios para fines distintos al servicio(incluida la publicidad no solicitada).
-5.3.Las comunicaciones promocionales requieren consentimiento y siempre incluirán un mecanismo de baja.
-6. PAGOS
-6.1.Las transacciones se procesan mediante pasarelas de pago y entidades financieras terceras, que actúan bajo sus propios términos y políticas de privacidad, y bajo estándares de seguridad de la industria de tarjetas(PCI - DSS).
-6.2.DOMO conserva registros de transacciones(montos, fechas, estados, comisiones) para fines contables, fiscales, de prevención de fraude y de resolución de disputas y contracargos.
-7. COOKIES Y TECNOLOGÍAS SIMILARES
-7.1.Utilizamos cookies y tecnologías similares para: (a) esenciales — autenticación, seguridad y funcionamiento de la Plataforma; (b) preferencias — recordar configuraciones e idioma; (c) analítica — comprender el uso de la Plataforma y mejorarla; y(d) publicidad, en su caso, para medir y personalizar campañas.
-7.2.El usuario puede gestionar las cookies desde la configuración de su navegador o dispositivo.Bloquear cookies esenciales puede impedir el funcionamiento de la Plataforma.Cuando se utilicen cookies no esenciales, se solicitará el consentimiento correspondiente mediante el aviso de cookies.
-8. COMPARTICIÓN DE DATOS CON TERCEROS
-DOMO no vende datos personales.Compartimos datos únicamente con:
-1.	Otros usuarios: la información de perfil, calificaciones y reseñas es visible según la naturaleza de la Plataforma; los datos de contacto y dirección se comparten de forma limitada entre las partes de un servicio aceptado.
-2.	Proveedores de servicios(encargados): procesadores de pago, servicios de alojamiento en la nube, mensajería y notificaciones, verificación de identidad, analítica y soporte, quienes tratan los datos siguiendo nuestras instrucciones y bajo obligaciones de confidencialidad.
-3.	Autoridades competentes: cuando exista requerimiento legal, orden judicial o sea necesario para prevenir o investigar ilícitos, proteger derechos, la seguridad de los usuarios o de terceros.
-4.	Operaciones societarias: en caso de fusión, adquisición o reorganización de la Empresa, los datos podrán transferirse al sucesor, quien quedará vinculado por esta Política o una equivalente, previa notificación a los usuarios.
-Transferencias internacionales: algunos proveedores tecnológicos pueden estar ubicados fuera de Honduras.En tales casos, DOMO exige contractualmente niveles de protección y confidencialidad consistentes con esta Política.
-9. SEGURIDAD DE LA INFORMACIÓN
-9.1.DOMO implementa medidas técnicas, administrativas y organizativas razonables para proteger los datos personales, incluyendo cifrado en tránsito(TLS / HTTPS), controles de acceso por roles, almacenamiento seguro de contraseñas mediante hash, monitoreo de seguridad y acuerdos de confidencialidad con el personal y los encargados.
-9.2.Ningún sistema es absolutamente seguro.En caso de un incidente de seguridad que afecte significativamente datos personales, DOMO lo notificará a los usuarios afectados con la mayor diligencia posible e informará las medidas adoptadas.
-9.3.El usuario es responsable de la custodia de sus credenciales y de notificar accesos no autorizados a su cuenta.
-10. CONSERVACIÓN DE DATOS
-10.1.Conservamos los datos personales mientras la cuenta esté activa y durante el tiempo necesario para cumplir las finalidades descritas.
-10.2.Tras la cancelación de la cuenta, conservaremos determinados datos por los plazos exigidos por la legislación fiscal, mercantil y contable hondureña, así como los necesarios para la defensa frente a reclamaciones, la gestión de disputas y la prevención de fraude.Vencidos dichos plazos, los datos serán eliminados o anonimizados de forma segura.
-10.3.Los datos agregados o anonimizados, que no permiten identificar a una persona, podrán conservarse indefinidamente con fines estadísticos.
-11. DERECHOS DE LOS USUARIOS
-El usuario puede ejercer en todo momento los siguientes derechos sobre sus datos personales:
-•	Acceso: conocer qué datos tratamos y cómo.
-•	Rectificación: corregir datos inexactos o desactualizados.
-•	Cancelación / supresión: solicitar la eliminación de sus datos cuando ya no sean necesarios, sin perjuicio de los plazos legales de conservación.
-•	Oposición: oponerse a tratamientos basados en interés legítimo o con fines promocionales.
-•	Revocación del consentimiento: retirar consentimientos otorgados, sin efectos retroactivos.
-•	Portabilidad: solicitar una copia de sus datos en formato estructurado de uso común, cuando sea técnicamente posible.
-El ejercicio de estos derechos se entiende sin perjuicio de la garantía constitucional de hábeas data y demás recursos previstos por la legislación hondureña.
-12. PROCEDIMIENTO PARA EJERCER DERECHOS
-12.1.El usuario puede presentar su solicitud: (a) desde la configuración de su cuenta en la Plataforma; o(b) enviando un correo a[privacidad@domo.hn], indicando su nombre completo, dato de contacto, derecho que ejerce y descripción de la solicitud, adjuntando copia de su documento de identidad para acreditar titularidad.
-12.2.DOMO responderá dentro de un plazo máximo de[15] días hábiles, prorrogable por un período igual cuando la complejidad lo requiera, informándolo al solicitante.
-12.3.Si la solicitud es denegada total o parcialmente, DOMO comunicará las razones(p.ej., plazos legales de conservación o disputas en curso).
-13. MENORES DE EDAD
-La Plataforma está dirigida exclusivamente a personas mayores de dieciocho(18) años.No recopilamos deliberadamente datos de menores.Si detectamos una cuenta de un menor, será cancelada y sus datos eliminados.
-14. CAMBIOS A ESTA POLÍTICA
-Podremos actualizar esta Política para reflejar cambios legales, tecnológicos u operativos.Los cambios sustanciales se notificarán a través de la Plataforma o por correo electrónico con antelación razonable.La versión vigente estará siempre disponible en la Plataforma con su fecha de actualización.
-15. CONTACTO DE PRIVACIDAD
-Responsable / Oficial de Privacidad de DOMO
-Correo: [privacidad@domo.hn]
-Dirección: [●], Tegucigalpa, M.D.C., Honduras
-Teléfono: [●]
+1.1. Datos proporcionados directamente: nombre, correo electrónico, departamento de Honduras, plataforma móvil de interés, interés en participar como cliente, tasker o ambos, y número telefónico cuando la persona decida proporcionarlo.
+1.2. Datos técnicos y de seguridad: fecha y hora del registro, registros técnicos generados por nuestros proveedores de infraestructura y un identificador criptográfico derivado de la dirección IP para limitar envíos abusivos. DOMO no almacena la dirección IP sin transformar en su tabla de rate limiting.
+1.3. No solicitamos contraseñas, documentos de identidad, información bancaria, datos de pago ni categorías sensibles de información mediante este formulario.
+
+2. PARA QUÉ UTILIZAMOS LOS DATOS
+2.1. Administrar la lista de prerregistro y enviar una notificación cuando DOMO esté disponible.
+2.2. Conocer la demanda por departamento, plataforma y tipo de participación para planificar el lanzamiento.
+2.3. Detectar registros duplicados, proteger el formulario, aplicar límites de envío y prevenir actividad automatizada o abusiva.
+2.4. Atender solicitudes relacionadas con acceso, corrección o eliminación de datos.
+2.5. No utilizaremos los datos para enviar publicidad recurrente ni comunicaciones ajenas al lanzamiento sin solicitar una autorización adicional cuando corresponda.
+
+3. AUTORIZACIÓN
+3.1. Al enviar el formulario, la persona confirma haber leído esta Política y autoriza el tratamiento de sus datos para las finalidades descritas.
+3.2. Proporcionar el número telefónico es opcional. No proporcionar teléfono no impide completar el prerregistro.
+3.3. La autorización puede retirarse en cualquier momento escribiendo a admin@grupo-noma.com. El retiro no afecta el tratamiento realizado legítimamente con anterioridad.
+
+4. CONSERVACIÓN
+4.1. Conservaremos los datos del prerregistro durante un máximo de un (1) año contado desde la fecha en que fueron proporcionados. Podremos eliminarlos antes si dejan de ser necesarios, si la persona lo solicita o si identificamos un registro duplicado, falso o abusivo.
+4.2. Los identificadores criptográficos utilizados para rate limiting se eliminan de forma automática después de cuarenta y ocho (48) horas cuando el sistema procesa nuevos intentos.
+4.3. Cierta información puede permanecer por períodos adicionales limitados en respaldos o registros técnicos de nuestros proveedores, sujeta a sus ciclos de eliminación y obligaciones de seguridad.
+
+5. CON QUIÉN COMPARTIMOS LOS DATOS
+5.1. No vendemos ni alquilamos datos personales.
+5.2. Podemos compartirlos únicamente con proveedores que nos ayudan a operar el sitio, alojar la aplicación, almacenar la base de datos y enviar la futura notificación. Actualmente utilizamos infraestructura de Vercel y Supabase.
+5.3. También podremos comunicar información cuando sea razonablemente necesario para cumplir una obligación legal, atender una orden válida de autoridad o proteger los derechos y la seguridad de DOMO y de terceros.
+5.4. Los proveedores actúan conforme a sus propios términos y compromisos de seguridad y reciben únicamente la información necesaria para prestar sus servicios.
+
+6. TRANSFERENCIAS Y UBICACIÓN
+6.1. Algunos proveedores tecnológicos pueden procesar o almacenar información fuera de Honduras. Al utilizar estos proveedores procuramos seleccionar servicios con medidas razonables de seguridad y protección de datos.
+
+7. SEGURIDAD
+7.1. Aplicamos medidas razonables como cifrado HTTPS, acceso restringido mediante claves privadas de servidor, controles de base de datos, validación de campos, restricciones contra duplicados y limitación de envíos.
+7.2. Ningún sistema ofrece seguridad absoluta. En caso de un incidente relevante, adoptaremos medidas razonables para contenerlo y comunicaremos lo que corresponda conforme a la legislación aplicable.
+
+8. DERECHOS Y SOLICITUDES
+8.1. La persona puede solicitar confirmación sobre si conservamos sus datos, obtener información sobre ellos, corregir datos inexactos, retirar su autorización o pedir la eliminación del registro.
+8.2. Para ejercer estos derechos debe escribir a admin@grupo-noma.com desde el correo utilizado para el prerregistro o proporcionar información suficiente para verificar razonablemente la titularidad. No solicitaremos más datos de los necesarios para atender la petición.
+8.3. Responderemos en un plazo razonable, considerando la naturaleza y complejidad de la solicitud y cualquier obligación legal aplicable.
+
+9. PERSONAS MENORES DE EDAD
+9.1. El prerregistro no está diseñado específicamente para recopilar datos de menores. Cuando una persona no tenga capacidad legal suficiente para autorizar el tratamiento por sí misma, deberá contar con autorización de su padre, madre, tutor o representante legal.
+9.2. Un representante puede solicitar la eliminación de los datos de una persona menor escribiendo a admin@grupo-noma.com.
+
+10. COOKIES Y ANALÍTICA
+10.1. Actualmente no utilizamos cookies publicitarias ni herramientas propias de seguimiento comercial en el formulario de prerregistro.
+10.2. Nuestros proveedores de alojamiento pueden generar registros técnicos indispensables para seguridad, funcionamiento y diagnóstico. Si incorporamos analítica, publicidad o tecnologías que requieran información adicional, actualizaremos esta Política y mostraremos los avisos correspondientes.
+
+11. NOTIFICACIÓN DE LANZAMIENTO
+11.1. Utilizaremos el correo electrónico y, si fue proporcionado, el teléfono para notificar la disponibilidad de DOMO. La finalidad del prerregistro es realizar esta comunicación de lanzamiento, no enviar mensajes recurrentes.
+11.2. La persona puede solicitar su eliminación antes de recibir la notificación mediante el correo de contacto indicado.
+
+12. CAMBIOS A ESTA POLÍTICA
+12.1. Podemos actualizar esta Política por cambios en el sitio, nuestros proveedores o la normativa aplicable. La versión vigente y su fecha se publicarán en esta página.
+12.2. Si pretendemos utilizar los datos existentes para una finalidad sustancialmente diferente, informaremos a las personas afectadas y solicitaremos una nueva autorización cuando corresponda.
+
+13. CONTACTO
+13.1. Responsable: DOMO, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.
+13.2. Correo para privacidad, acceso, corrección, eliminación y consultas generales: admin@grupo-noma.com.

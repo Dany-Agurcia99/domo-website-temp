@@ -45,6 +45,8 @@
 
 .field {
   display: grid;
+  align-self: start;
+  align-content: start;
   gap: 0.4rem;
 }
 
@@ -55,8 +57,7 @@
 }
 
 .input,
-.select,
-.textarea {
+.select {
   width: 100%;
   min-height: 3.2rem;
   border-radius: 1rem;
@@ -73,23 +74,16 @@
     background 180ms ease;
 }
 
-.input::placeholder,
-.textarea::placeholder {
+.input::placeholder {
   color: var(--color-domo-gray);
 }
 
 .input:focus,
-.select:focus,
-.textarea:focus {
+.select:focus {
   outline: none;
   border-color: var(--color-domo-active);
   background: var(--color-domo-white);
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-domo-active) 18%, transparent);
-}
-
-.textarea {
-  min-height: 7.5rem;
-  resize: vertical;
 }
 
 .inputError {
@@ -100,6 +94,13 @@
   color: var(--color-domo-red);
   font-size: 0.8rem;
   font-weight: 700;
+}
+
+.helperText {
+  color: color-mix(in srgb, var(--color-domo-primary) 68%, transparent);
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.35;
 }
 
 .formMessage {
@@ -150,6 +151,22 @@
   transform: none;
 }
 
+.legalNotice {
+  margin: -0.25rem 0 0;
+  color: color-mix(in srgb, var(--color-domo-primary) 68%, transparent);
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.legalNotice a {
+  color: var(--color-domo-primary);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .honeypot {
   display: none;
 }
@@ -161,9 +178,5 @@
 
   .fieldGrid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .fieldWide {
-    grid-column: span 2;
   }
 }

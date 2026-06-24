@@ -8,4 +8,5 @@
 
 .footerRevealSpace {
   height: var(--site-footer-height);
+  pointer-events: none;
 }

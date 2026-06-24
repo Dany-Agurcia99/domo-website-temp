@@ -4,9 +4,9 @@ Landing page de preregistro para una app de servicios, construida con Next.js Ap
 
 ## Arquitectura
 
-- `src/app/page.tsx`: Server Component (default) con contenido estatico de la landing.
-- `src/features/preregistration/components/preregistration-form.tsx`: Client Component solo para interactividad de formulario.
-- `src/features/preregistration/actions/submit-preregistration.ts`: Server Action para validacion + insercion en Supabase.
+- `src/app/(landing)/page.tsx`: entrada de la landing.
+- `src/app/(landing)/_sections/registration/components/preregistration-form.tsx`: formulario interactivo.
+- `src/app/(landing)/_sections/registration/actions/submit-preregistration.ts`: validacion e insercion segura en Supabase.
 - `src/constants/theme.ts`: fuente unica de colores (background, outline, text, primary).
 - `src/constants/site-text.ts`: textos del website centralizados.
 - `src/utils/formatters.ts`: formatters y normalizacion de datos.
@@ -23,11 +23,15 @@ npm install
 
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=
-SUPABASE_SERVICE_ROLE_KEY=
-SUPABASE_PREREGISTRATION_TABLE=preregistrations
+SUPABASE_SECRET_KEY=
 ```
 
-3. Ejecuta el SQL de `supabase/preregistration.sql` en tu proyecto de Supabase.
+3. Enlaza el proyecto y aplica las migraciones:
+
+```bash
+npx supabase link --project-ref TU_PROJECT_REF
+npx supabase db push
+```
 
 4. Levanta el proyecto:
 
@@ -49,4 +53,4 @@ npm run dev
 - Mantener todos los textos en `src/constants`.
 - Mantener todos los colores solo en `src/constants/theme.ts`.
 - Mantener formatters en `src/utils/formatters.ts`.
-- Mantener mutaciones de backend en Server Actions dentro de `src/features/*/actions`.
+- Mantener mutaciones de backend en Server Actions dentro de cada seccion.

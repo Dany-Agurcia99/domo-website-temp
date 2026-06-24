@@ -1,4 +1,4 @@
 .page {
-  overflow: hidden;
+  overflow-x: clip;
   background: var(--color-domo-base);
 }

@@ -1,8 +1,14 @@
 "use client";
 
 import { useActionState } from "react";
+import Link from "next/link";
 
-import { leadSourceOptions, serviceOptions, siteText } from "@/constants/site-text";
+import {
+  hondurasDepartments,
+  interestOptions,
+  platformOptions,
+  siteText,
+} from "@/constants/site-text";
 
 import { submitPreregistration } from "../actions/submit-preregistration";
 import { initialPreregistrationFormState } from "../types";
@@ -87,7 +93,10 @@ export function PreregistrationForm() {
               id="phone"
               name="phone"
               type="tel"
-              required
+              inputMode="tel"
+              autoComplete="tel"
+              maxLength={18}
+              aria-describedby="phone-help"
               defaultValue={state.values.phone}
               placeholder={siteText.form.placeholders.phone}
               className={withErrorClass(styles.input, Boolean(state.fieldErrors.phone))}
@@ -95,85 +104,77 @@ export function PreregistrationForm() {
             {state.fieldErrors.phone ? (
               <span className={styles.errorText}>{state.fieldErrors.phone}</span>
             ) : null}
+            <span id="phone-help" className={styles.helperText}>
+              Solo te notificaremos cuando DOMO esté disponible. Nada de spam.
+            </span>
           </div>
 
           <div className={styles.field}>
-            <label className={styles.label} htmlFor="city">
-              {siteText.form.labels.city}
+            <label className={styles.label} htmlFor="department">
+              {siteText.form.labels.department}
             </label>
-            <input
-              id="city"
-              name="city"
-              type="text"
+            <select
+              id="department"
+              name="department"
               required
-              defaultValue={state.values.city}
-              placeholder={siteText.form.placeholders.city}
-              className={withErrorClass(styles.input, Boolean(state.fieldErrors.city))}
-            />
-            {state.fieldErrors.city ? (
-              <span className={styles.errorText}>{state.fieldErrors.city}</span>
+              defaultValue={state.values.department}
+              className={withErrorClass(styles.select, Boolean(state.fieldErrors.department))}
+            >
+              <option value="">{siteText.form.placeholders.department}</option>
+              {hondurasDepartments.map((department) => (
+                <option key={department} value={department}>
+                  {department}
+                </option>
+              ))}
+            </select>
+            {state.fieldErrors.department ? (
+              <span className={styles.errorText}>{state.fieldErrors.department}</span>
             ) : null}
           </div>
 
           <div className={styles.field}>
-            <label className={styles.label} htmlFor="serviceType">
-              {siteText.form.labels.serviceType}
+            <label className={styles.label} htmlFor="platform">
+              {siteText.form.labels.platform}
             </label>
             <select
-              id="serviceType"
-              name="serviceType"
+              id="platform"
+              name="platform"
               required
-              defaultValue={state.values.serviceType}
-              className={withErrorClass(styles.select, Boolean(state.fieldErrors.serviceType))}
+              defaultValue={state.values.platform}
+              className={withErrorClass(styles.select, Boolean(state.fieldErrors.platform))}
             >
-              <option value="">Selecciona una opcion</option>
-              {serviceOptions.map((option) => (
+              <option value="">Selecciona una plataforma</option>
+              {platformOptions.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
               ))}
             </select>
-            {state.fieldErrors.serviceType ? (
-              <span className={styles.errorText}>{state.fieldErrors.serviceType}</span>
+            {state.fieldErrors.platform ? (
+              <span className={styles.errorText}>{state.fieldErrors.platform}</span>
             ) : null}
           </div>
 
           <div className={styles.field}>
-            <label className={styles.label} htmlFor="leadSource">
-              {siteText.form.labels.leadSource}
+            <label className={styles.label} htmlFor="interest">
+              {siteText.form.labels.interest}
             </label>
             <select
-              id="leadSource"
-              name="leadSource"
+              id="interest"
+              name="interest"
               required
-              defaultValue={state.values.leadSource}
-              className={withErrorClass(styles.select, Boolean(state.fieldErrors.leadSource))}
+              defaultValue={state.values.interest}
+              className={withErrorClass(styles.select, Boolean(state.fieldErrors.interest))}
             >
-              <option value="">Selecciona una opcion</option>
-              {leadSourceOptions.map((option) => (
+              <option value="">Selecciona una opción</option>
+              {interestOptions.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
               ))}
             </select>
-            {state.fieldErrors.leadSource ? (
-              <span className={styles.errorText}>{state.fieldErrors.leadSource}</span>
-            ) : null}
-          </div>
-
-          <div className={`${styles.field} ${styles.fieldWide}`}>
-            <label className={styles.label} htmlFor="details">
-              {siteText.form.labels.details}
-            </label>
-            <textarea
-              id="details"
-              name="details"
-              defaultValue={state.values.details}
-              placeholder={siteText.form.placeholders.details}
-              className={withErrorClass(styles.textarea, Boolean(state.fieldErrors.details))}
-            />
-            {state.fieldErrors.details ? (
-              <span className={styles.errorText}>{state.fieldErrors.details}</span>
+            {state.fieldErrors.interest ? (
+              <span className={styles.errorText}>{state.fieldErrors.interest}</span>
             ) : null}
           </div>
         </div>
@@ -183,6 +184,13 @@ export function PreregistrationForm() {
         </p>
 
         <SubmitButton />
+
+        <p className={styles.legalNotice}>
+          Al registrarte, confirmas que has leído nuestros{" "}
+          <Link href="/terms">Términos y Condiciones</Link> y la{" "}
+          <Link href="/privacy">Política de Privacidad</Link>, y autorizas a
+          DOMO a contactarte cuando la app esté disponible.
+        </p>
       </form>
     </section>
   );

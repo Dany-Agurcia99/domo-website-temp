@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ArrowRight } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
-import { Wordmark } from "@/components/brand/wordmark";
+import domoLogo from "@/assets/domo-logo-white-nobackground.png";
 
 import styles from "./site-nav.module.css";
 
@@ -15,6 +16,7 @@ type NavItem = {
 
 export function SiteNav({ items }: { items: readonly NavItem[] }) {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 16);
@@ -25,11 +27,32 @@ export function SiteNav({ items }: { items: readonly NavItem[] }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMenuOpen(false);
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [menuOpen]);
+
   return (
     <header className={`${styles.shell} ${scrolled ? styles.shellScrolled : ""}`}>
       <nav className={styles.nav} aria-label="Navegacion principal">
-        <Link className={styles.logoLink} href="/#top" aria-label="DOMO inicio">
-          <Wordmark />
+        <Link
+          className={styles.logoLink}
+          href="/#top"
+          aria-label="DOMO inicio"
+          onClick={() => setMenuOpen(false)}
+        >
+          <Image
+            className={styles.logo}
+            src={domoLogo}
+            alt="DOMO"
+            priority
+          />
         </Link>
 
         <div className={styles.links}>
@@ -40,10 +63,34 @@ export function SiteNav({ items }: { items: readonly NavItem[] }) {
           ))}
         </div>
 
-        <Link className={styles.cta} href="/#registro">
-          <span>Unete</span>
-          <ArrowRight aria-hidden size={17} strokeWidth={2.4} />
-        </Link>
+        <button
+          className={styles.menuToggle}
+          type="button"
+          aria-label={menuOpen ? "Cerrar menu" : "Abrir menu"}
+          aria-controls="mobile-navigation"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen((open) => !open)}
+        >
+          {menuOpen ? (
+            <X aria-hidden size={25} strokeWidth={2.2} />
+          ) : (
+            <Menu aria-hidden size={27} strokeWidth={2.2} />
+          )}
+        </button>
+
+        {menuOpen && (
+          <div id="mobile-navigation" className={styles.mobileMenu}>
+            {items.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMenuOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+        )}
       </nav>
     </header>
   );

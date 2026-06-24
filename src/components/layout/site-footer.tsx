@@ -64,16 +64,26 @@ export function SiteFooter({
 
       <div className={styles.bottom}>
         <nav className={styles.legalLinks} aria-label="Enlaces legales">
-          <Link href="/terms">Terminos y Condiciones</Link>
-          <Link href="/privacy">Politica de Privacidad</Link>
+          <Link href="/terms">Términos y Condiciones</Link>
+          <Link href="/privacy">Política de Privacidad</Link>
         </nav>
 
         <div className={styles.company}>
           <div className={styles.socialLinks}>
-            <a href={socialLinks.facebook} aria-label="Facebook">
+            <a
+              href={socialLinks.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
               <FacebookIcon />
             </a>
-            <a href={socialLinks.instagram} aria-label="Instagram">
+            <a
+              href={socialLinks.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
               <InstagramIcon />
             </a>
           </div>
