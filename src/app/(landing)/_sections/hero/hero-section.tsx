@@ -19,9 +19,9 @@ export function HeroSection() {
         />
 
         <h1 className={styles.title}>
-          <span className={styles.firstLine}>La app que arregla tu</span>
+          <span className={styles.firstLine}>soluciones más rápidas</span>
           <span className={styles.secondLine}>
-            Hogar en <span className={styles.greenText}>un solo toque</span>
+            <span className={styles.greenText}>para tu hogar</span>
           </span>
         </h1>
 

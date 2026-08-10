@@ -9,7 +9,7 @@ export function TrustSection() {
     <section id="confianza" className={styles.section}>
       <Container>
         <SectionHeader eyebrow="Confianza">
-          Una app que se toma <span>en serio tu hogar.</span>
+          Garantizada tu <span>satisfacción!</span>
         </SectionHeader>
       </Container>
 

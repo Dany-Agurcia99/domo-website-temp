@@ -1,6 +1,6 @@
 export const landingHero = {
   description:
-    "Encuentra profesionales verificados para resolver los servicios de tu hogar de forma rapida, facil y segura.",
+    "Encuentra profesionales cercanos para reparaciones y mejoras, todo en un mismo lugar.",
   cta: "Unirse al Piloto",
 } as const;
 
@@ -30,24 +30,24 @@ export const landingServices = [
 export const landingSteps = [
   {
     number: "01",
-    title: "Elegi un servicio",
+    title: "Elegí un servicio",
     description:
-      "Escoge la categoria que necesitas y describe el trabajo en minutos.",
+      "Escoge la categoría que necesites y describe tu solicitud.",
     icon: "LayoutGrid",
   },
   {
     number: "02",
-    title: "Agenda dia y hora",
+    title: "Escoge tu especialista",
     description:
-      "Reserva el momento que mejor te queda sin llamadas ni vueltas.",
-    icon: "CalendarClock",
+      "Compara profesionales verificados que más se ajuste a tu situación.",
+    icon: "BadgeCheck",
   },
   {
     number: "03",
-    title: "Recibi especialistas",
+    title: "Agenda día y hora",
     description:
-      "Compara profesionales verificados con precio claro desde el inicio.",
-    icon: "BadgeCheck",
+      "Elige día y hora según a tu conveniencia.",
+    icon: "CalendarClock",
   },
 ] as const;
 
@@ -58,14 +58,14 @@ export const landingTrustCards = [
       "Cada proveedor pasa por revision de identidad, referencias y criterios de servicio antes de aceptar trabajos.",
   },
   {
-    title: "Precio claro",
+    title: "Acuerdos sin sorpresas",
     description:
-      "Acordas el alcance antes de confirmar para reducir sorpresas y mensajes interminables.",
+      "No se te cobrará hasta que tu trabajo quede como vos querés.",
   },
   {
-    title: "Primero Tegucigalpa",
+    title: "Califica tu Tasker",
     description:
-      "El piloto inicia en la capital y se expande zona por zona segun demanda registrada.",
+      "Deja tu opinión después de cada trabajo!",
   },
 ] as const;
 

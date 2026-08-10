@@ -26,11 +26,11 @@ const serviceImages: Record<Service["id"], StaticImageData> = {
 };
 
 const serviceVideos: Record<Service["id"], string> = {
-  fontaneria: "/videos/plomeria.mp4",
-  electricidad: "/videos/electricista%201.mp4",
-  limpieza: "/videos/limpieza%20maybe.mp4",
-  cerrajeria: "/videos/cerrajeria.mp4",
-  electrodomesticos: "/videos/electrodomesticos%201.mp4",
+  fontaneria: "/videos/Plumbing.mp4",
+  electricidad: "/videos/Electrician.mp4",
+  limpieza: "/videos/Cleaning.mp4",
+  cerrajeria: "/videos/Locksmith.mp4",
+  electrodomesticos: "/videos/Reparing.mp4",
 };
 
 export function ServicesSection() {
@@ -42,7 +42,8 @@ export function ServicesSection() {
     <section id="servicios" className={styles.section}>
       <Container>
         <SectionHeader eyebrow="Servicios">
-          Todo para tu hogar, <span>en una sola app.</span>
+          Para todas las necesidades de tu hogar,{" "}
+          <span>en una sola app</span>
         </SectionHeader>
       </Container>
 
