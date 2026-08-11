@@ -1,29 +1,29 @@
 import { Container } from "@/components/layout/container";
 import { SectionHeader } from "@/components/ui/section-header";
-import { Headset, ReceiptText, ShieldCheck, Star } from "lucide-react";
+import { Clock3, Handshake, Megaphone, WalletCards } from "lucide-react";
 
-import { landingTrustCards } from "../../_data/landing-data";
-import styles from "./trust-section.module.css";
+import { landingTaskerTrustCards } from "../../_data/landing-data";
+import styles from "./tasker-trust-section.module.css";
 
-const trustIcons = {
-  Headset,
-  ReceiptText,
-  ShieldCheck,
-  Star,
+const taskerIcons = {
+  Clock3,
+  Handshake,
+  Megaphone,
+  WalletCards,
 } as const;
 
-export function TrustSection() {
+export function TaskerTrustSection() {
   return (
-    <section id="confianza" className={styles.section}>
+    <section id="taskers" className={styles.section}>
       <Container>
-        <SectionHeader eyebrow="Confianza">
-          Garantizada tu <span>satisfacción!</span>
+        <SectionHeader eyebrow="Taskers">
+          Crece con <span>respaldo real</span>
         </SectionHeader>
       </Container>
 
       <div className={styles.grid}>
-        {landingTrustCards.map((card) => {
-          const Icon = trustIcons[card.icon];
+        {landingTaskerTrustCards.map((card) => {
+          const Icon = taskerIcons[card.icon];
 
           return (
             <article key={card.title} className={styles.card}>

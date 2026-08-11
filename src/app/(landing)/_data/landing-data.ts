@@ -53,24 +53,60 @@ export const landingSteps = [
 
 export const landingTrustCards = [
   {
-    title: "Profesionales verificados",
+    title: "Perfil verificado",
     description:
-      "Cada proveedor pasa por revision de identidad, referencias y criterios de servicio antes de aceptar trabajos.",
+      "Cada tasker valida su identidad, experiencia y referencias antes de ofrecer servicios en domo.",
+    icon: "ShieldCheck",
   },
   {
-    title: "Acuerdos sin sorpresas",
+    title: "Pago sin sorpresas",
     description:
-      "No se te cobrará hasta que tu trabajo quede como vos querés.",
+      "El pago se confirma solo cuando el trabajo esté como acordaron y tú des tu aprobación final.",
+    icon: "ReceiptText",
   },
   {
-    title: "Califica tu Tasker",
+    title: "Califica tu experiencia",
     description:
-      "Deja tu opinión después de cada trabajo!",
+      "Al finalizar, puedes valorar el servicio y compartir tu opinión para ayudar a otros clientes.",
+    icon: "Star",
+  },
+  {
+    title: "Soporte siempre cerca",
+    description:
+      "Si surge algún inconveniente, nuestro equipo te acompaña para resolverlo de forma rápida y clara.",
+    icon: "Headset",
+  },
+] as const;
+
+export const landingTaskerTrustCards = [
+  {
+    title: "Seguridad de pagos",
+    description:
+      "Tu pago se libera al finalizar el trabajo, con reglas claras para que cobres a tiempo.",
+    icon: "WalletCards",
+  },
+  {
+    title: "Mayor visibilidad",
+    description:
+      "Cada buen servicio mejora tu reputación y te ayuda a conseguir más solicitudes dentro de la app.",
+    icon: "Megaphone",
+  },
+  {
+    title: "Trabajo a tu ritmo",
+    description:
+      "Tú eliges horarios, clientes y tipos de trabajo para construir tu crecimiento como tasker.",
+    icon: "Clock3",
+  },
+  {
+    title: "Respaldo constante",
+    description:
+      "No trabajas solo: cuentas con soporte y herramientas para seguir creciendo paso a paso.",
+    icon: "Handshake",
   },
 ] as const;
 
 export const landingCta = {
-  availability: "Lugares limitados para fundadores",
+  availability: "Usuarios registrados:",
   titleLead: "Únete al piloto.",
   titleHighlight: "Ayúdanos",
   titleTail: "a construirlo.",

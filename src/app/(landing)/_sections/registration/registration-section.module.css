@@ -1,19 +1,37 @@
 .section {
-  padding: 5rem 0;
-  background:
-    linear-gradient(135deg, color-mix(in srgb, var(--color-domo-secondary) 18%, transparent), transparent 48%),
-    var(--color-domo-base);
+  padding: 4rem 0 6rem;
+  background: var(--color-domo-base);
 }
 
 .grid {
   display: grid;
-  gap: 2rem;
-  align-items: start;
+  gap: 1.3rem;
+  align-items: stretch;
+  width: min(98vw, 96rem);
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: clamp(34rem, 76vh, 54rem);
+  padding: 1.35rem;
+  border: 1px solid color-mix(in srgb, var(--color-domo-outline) 88%, var(--color-domo-secondary));
+  border-radius: 2rem;
+  background: var(--color-bg-accent);
+  box-shadow: 0 30px 70px -58px color-mix(in srgb, var(--color-domo-gradientEnd) 70%, transparent);
 }
 
 .copy {
   display: grid;
   justify-items: start;
+  align-content: start;
+  gap: 0.28rem;
+  padding: 9rem 1.4rem;
+  border: 1px solid color-mix(in srgb, var(--color-domo-outline) 82%, transparent);
+  border-radius: 1.45rem;
+  background: var(--color-domo-white);
+  width: min(100%, 34rem);
+  justify-self: center;
+  align-self: center;
 }
 
 .eyebrow {
@@ -37,20 +55,20 @@
 }
 
 .copy h2 {
-  max-width: 11ch;
-  margin: 0.9rem 0 0;
-  color: var(--color-domo-primary);
+  max-width: 12ch;
+  margin: 0.15rem 0 0;
+  color: var(--color-domo-baseOpp);
   font-family: var(--font-display), var(--font-main), sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 1;
   letter-spacing: 0;
 }
 
 .copy p:not(.eyebrow) {
-  max-width: 34rem;
-  margin: 1.1rem 0 0;
-  color: var(--color-domo-primary);
-  line-height: 1.65;
+  max-width: 30rem;
+  margin: 0.12rem 0 0;
+  color: color-mix(in srgb, var(--color-domo-baseOpp) 78%, transparent);
+  line-height: 1.5;
   font-weight: 600;
 }
 
@@ -60,17 +78,54 @@
   }
 
   .grid {
-    grid-template-columns: minmax(0, 0.9fr) minmax(28rem, 1fr);
-    gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.35rem;
+    padding: 1.9rem;
+    width: min(97vw, 98rem);
   }
 
   .copy h2 {
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 2.9vw, 3rem);
+  }
+
+  .copy {
+    min-height: auto;
+    padding: 9rem 1.65rem;
+    width: min(100%, 35rem);
+    align-content: start;
+  }
+}
+
+@media (max-width: 899px) {
+  .grid {
+    min-height: auto;
+  }
+
+  .copy {
+    width: 100%;
+    padding: 2rem 1.05rem;
+    border-radius: 1.7rem;
+    gap: 0.2rem;
   }
 }
 
 @media (max-width: 520px) {
+  .section {
+    padding: 3.2rem 0 4.4rem;
+  }
+
+  .grid {
+    width: calc(100vw - 1rem);
+    min-height: auto;
+    border-radius: 1.5rem;
+    padding: 0.9rem;
+  }
+
   .copy h2 {
     font-size: 2.15rem;
+  }
+
+  .copy {
+    padding: 4.5rem 0.95rem;
   }
 }

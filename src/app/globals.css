@@ -65,7 +65,31 @@ video {
   outline-offset: 4px;
 }
 
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(22px) scale(0.995);
+  filter: blur(2px);
+  will-change: opacity, transform, filter;
+  transition:
+    opacity 520ms ease,
+    transform 520ms ease,
+    filter 520ms ease;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll,
+  .reveal-on-scroll.is-visible {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+
   *,
   *::before,
   *::after {

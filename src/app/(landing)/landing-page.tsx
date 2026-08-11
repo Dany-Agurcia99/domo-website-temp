@@ -1,4 +1,5 @@
 import { SiteNav } from "@/components/layout/site-nav";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { siteNavItems } from "@/constants/site-text";
 
 import { HeroSection } from "./_sections/hero/hero-section";
@@ -6,6 +7,7 @@ import { HowItWorksSection } from "./_sections/how-it-works/how-it-works-section
 import { MainCtaSection } from "./_sections/main-cta/main-cta-section";
 import { RegistrationSection } from "./_sections/registration/registration-section";
 import { ServicesSection } from "./_sections/services/services-section";
+import { TaskerTrustSection } from "./_sections/tasker-trust/tasker-trust-section";
 import { TrustSection } from "./_sections/trust/trust-section";
 import styles from "./landing-page.module.css";
 
@@ -14,12 +16,27 @@ export function LandingPage() {
     <>
       <SiteNav items={siteNavItems} />
       <main className={styles.page}>
-        <HeroSection />
-        <ServicesSection />
-        <HowItWorksSection />
-        <TrustSection />
-        <MainCtaSection />
-        <RegistrationSection />
+        <ScrollReveal>
+          <HeroSection />
+        </ScrollReveal>
+        <ScrollReveal delayMs={40}>
+          <ServicesSection />
+        </ScrollReveal>
+        <ScrollReveal delayMs={80}>
+          <HowItWorksSection />
+        </ScrollReveal>
+        <ScrollReveal delayMs={0}>
+          <TrustSection />
+        </ScrollReveal>
+        <ScrollReveal delayMs={60}>
+          <MainCtaSection />
+        </ScrollReveal>
+        <ScrollReveal delayMs={0}>
+          <TaskerTrustSection />
+        </ScrollReveal>
+        <ScrollReveal delayMs={60}>
+          <RegistrationSection />
+        </ScrollReveal>
       </main>
     </>
   );

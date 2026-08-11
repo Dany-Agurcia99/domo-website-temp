@@ -50,6 +50,7 @@
 
 .secondLine {
   display: block;
+  margin-top: 0.2em;
   color: var(--color-domo-white);
 }
 
@@ -59,7 +60,7 @@
 
 .description {
   max-width: 48rem;
-  margin: clamp(1rem, 2.6vh, 1.75rem) 0 0;
+  margin: clamp(1.35rem, 3.2vh, 2.2rem) 0 0;
   color: color-mix(in srgb, var(--color-domo-white) 82%, transparent);
   font-size: clamp(1.1rem, 1.6vw, 1.35rem);
   font-weight: 600;

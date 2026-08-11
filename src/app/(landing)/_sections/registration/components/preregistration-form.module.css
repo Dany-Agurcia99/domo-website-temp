@@ -1,13 +1,13 @@
 .formShell {
-  width: min(100%, 40rem);
-  margin-left: auto;
-  border: 1px solid var(--color-domo-outline);
-  background:
-    linear-gradient(135deg, color-mix(in srgb, var(--color-domo-secondary) 18%, transparent), transparent 46%),
-    var(--color-domo-white);
-  border-radius: 1.6rem;
-  padding: 1.2rem;
-  box-shadow: 0 30px 70px -50px var(--color-domo-baseOpp);
+  width: min(100%, 42rem);
+  margin: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 1.45rem;
+  padding: 0.95rem;
+  box-shadow: none;
+  justify-self: center;
+  align-self: center;
 }
 
 .formHeader {
@@ -18,7 +18,7 @@
 
 .formTitle {
   margin: 0;
-  color: var(--color-domo-primary);
+  color: var(--color-text-primary);
   font-family: var(--font-display), var(--font-main), sans-serif;
   font-size: 1.7rem;
   line-height: 1.1;
@@ -27,7 +27,7 @@
 
 .formDescription {
   margin: 0;
-  color: color-mix(in srgb, var(--color-domo-primary) 74%, transparent);
+  color: color-mix(in srgb, var(--color-text-primary) 76%, transparent);
   font-size: 0.98rem;
   line-height: 1.5;
   font-weight: 600;
@@ -35,11 +35,12 @@
 
 .form {
   display: grid;
-  gap: 1rem;
+  gap: 1.05rem;
 }
 
 .fieldGrid {
   display: grid;
+  grid-template-columns: 1fr;
   gap: 0.85rem;
 }
 
@@ -51,7 +52,7 @@
 }
 
 .label {
-  color: var(--color-domo-baseOpp);
+  color: var(--color-text-primary);
   font-size: 0.84rem;
   font-weight: 800;
 }
@@ -60,9 +61,9 @@
 .select {
   width: 100%;
   min-height: 3.2rem;
-  border-radius: 1rem;
-  border: 2px solid color-mix(in srgb, var(--color-domo-outline) 82%, transparent);
-  background: var(--color-domo-base);
+  border-radius: 1.05rem;
+  border: 2px solid color-mix(in srgb, var(--color-bg-accent) 42%, var(--color-primary-base));
+  background: var(--color-domo-white);
   color: var(--color-domo-baseOpp);
   font-family: var(--font-main), sans-serif;
   font-size: 0.96rem;
@@ -81,7 +82,7 @@
 .input:focus,
 .select:focus {
   outline: none;
-  border-color: var(--color-domo-active);
+  border-color: var(--color-outline-focus);
   background: var(--color-domo-white);
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-domo-active) 18%, transparent);
 }
@@ -97,7 +98,7 @@
 }
 
 .helperText {
-  color: color-mix(in srgb, var(--color-domo-primary) 68%, transparent);
+  color: color-mix(in srgb, var(--color-text-primary) 70%, transparent);
   font-size: 0.76rem;
   font-weight: 600;
   line-height: 1.35;
@@ -106,6 +107,7 @@
 .formMessage {
   min-height: 1.35rem;
   margin: 0;
+  color: var(--color-text-primary);
   font-size: 0.9rem;
   font-weight: 700;
 }
@@ -122,7 +124,7 @@
   min-height: 3.35rem;
   border: none;
   border-radius: 999px;
-  background: var(--color-domo-primary);
+  background: var(--color-primary-base);
   color: var(--color-domo-white);
   font-family: var(--font-main), sans-serif;
   font-size: 0.98rem;
@@ -136,7 +138,7 @@
 }
 
 .submitButton:hover {
-  background: var(--color-domo-gradientEnd);
+  background: var(--color-primary-hover);
   box-shadow: 0 18px 40px -28px var(--color-domo-gradientEnd);
   transform: translateY(-2px);
 }
@@ -153,7 +155,7 @@
 
 .legalNotice {
   margin: -0.25rem 0 0;
-  color: color-mix(in srgb, var(--color-domo-primary) 68%, transparent);
+  color: color-mix(in srgb, var(--color-text-primary) 70%, transparent);
   font-size: 0.74rem;
   font-weight: 600;
   line-height: 1.5;
@@ -161,7 +163,7 @@
 }
 
 .legalNotice a {
-  color: var(--color-domo-primary);
+  color: var(--color-text-primary);
   font-weight: 800;
   text-decoration: underline;
   text-underline-offset: 0.15em;
@@ -171,12 +173,54 @@
   display: none;
 }
 
-@media (min-width: 760px) {
+@media (max-width: 899px) {
   .formShell {
-    padding: 1.55rem;
+    padding: 0.62rem;
+  }
+
+  .form {
+    gap: 0.82rem;
   }
 
   .fieldGrid {
-    grid-template-columns: 1fr 1fr;
+    gap: 0.68rem;
+  }
+
+  .field {
+    gap: 0.28rem;
+  }
+
+  .input,
+  .select {
+    min-height: 2.9rem;
+    padding: 0.7rem 0.88rem;
+  }
+
+  .submitButton {
+    min-height: 3.08rem;
+    padding: 0.82rem 1rem;
+  }
+
+  .legalNotice {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .formShell {
+    border-radius: 1.6rem;
+    padding: 1.15rem;
+  }
+}
+
+@media (min-width: 1080px) {
+  .formShell {
+    width: min(100%, 44rem);
+    padding: 1.25rem;
+  }
+
+  .fieldGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
   }
 }

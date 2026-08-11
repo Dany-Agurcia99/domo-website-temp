@@ -4,9 +4,7 @@ import { useActionState } from "react";
 import Link from "next/link";
 
 import {
-  hondurasDepartments,
   interestOptions,
-  platformOptions,
   siteText,
 } from "@/constants/site-text";
 
@@ -34,11 +32,6 @@ export function PreregistrationForm() {
 
   return (
     <section className={styles.formShell}>
-      <header className={styles.formHeader}>
-        <h2 className={styles.formTitle}>{siteText.form.title}</h2>
-        <p className={styles.formDescription}>{siteText.form.description}</p>
-      </header>
-
       <form action={formAction} className={styles.form} noValidate>
         <input
           className={styles.honeypot}
@@ -46,6 +39,18 @@ export function PreregistrationForm() {
           name="website"
           tabIndex={-1}
           autoComplete="off"
+        />
+        <input
+          type="hidden"
+          name="department"
+          value={state.values.department || "Francisco Morazán"}
+          readOnly
+        />
+        <input
+          type="hidden"
+          name="platform"
+          value={state.values.platform || "iOS"}
+          readOnly
         />
 
         <div className={styles.fieldGrid}>
@@ -107,52 +112,6 @@ export function PreregistrationForm() {
             <span id="phone-help" className={styles.helperText}>
               Solo te notificaremos cuando domo esté disponible. Nada de spam.
             </span>
-          </div>
-
-          <div className={styles.field}>
-            <label className={styles.label} htmlFor="department">
-              {siteText.form.labels.department}
-            </label>
-            <select
-              id="department"
-              name="department"
-              required
-              defaultValue={state.values.department}
-              className={withErrorClass(styles.select, Boolean(state.fieldErrors.department))}
-            >
-              <option value="">{siteText.form.placeholders.department}</option>
-              {hondurasDepartments.map((department) => (
-                <option key={department} value={department}>
-                  {department}
-                </option>
-              ))}
-            </select>
-            {state.fieldErrors.department ? (
-              <span className={styles.errorText}>{state.fieldErrors.department}</span>
-            ) : null}
-          </div>
-
-          <div className={styles.field}>
-            <label className={styles.label} htmlFor="platform">
-              {siteText.form.labels.platform}
-            </label>
-            <select
-              id="platform"
-              name="platform"
-              required
-              defaultValue={state.values.platform}
-              className={withErrorClass(styles.select, Boolean(state.fieldErrors.platform))}
-            >
-              <option value="">Selecciona una plataforma</option>
-              {platformOptions.map((option) => (
-                <option key={option} value={option}>
-                  {option}
-                </option>
-              ))}
-            </select>
-            {state.fieldErrors.platform ? (
-              <span className={styles.errorText}>{state.fieldErrors.platform}</span>
-            ) : null}
           </div>
 
           <div className={styles.field}>

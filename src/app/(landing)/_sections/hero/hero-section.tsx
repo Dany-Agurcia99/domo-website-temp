@@ -19,7 +19,9 @@ export function HeroSection() {
         />
 
         <h1 className={styles.title}>
-          <span className={styles.firstLine}>soluciones más rápidas</span>
+          <span className={styles.firstLine}>
+            soluciones más rápidas
+          </span>
           <span className={styles.secondLine}>
             <span className={styles.greenText}>para tu hogar</span>
           </span>

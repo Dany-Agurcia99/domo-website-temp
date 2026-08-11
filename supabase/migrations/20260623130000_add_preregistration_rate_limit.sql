@@ -1,13 +1,13 @@
-create table public.preregistration_rate_limit_events (
+create table if not exists public.preregistration_rate_limit_events (
   id bigint generated always as identity primary key,
   ip_hash text not null check (ip_hash ~ '^[a-f0-9]{64}$'),
   created_at timestamptz not null default now()
 );
 
-create index preregistration_rate_limit_events_lookup_idx
+create index if not exists preregistration_rate_limit_events_lookup_idx
   on public.preregistration_rate_limit_events (ip_hash, created_at desc);
 
-create index preregistration_rate_limit_events_cleanup_idx
+create index if not exists preregistration_rate_limit_events_cleanup_idx
   on public.preregistration_rate_limit_events (created_at);
 
 alter table public.preregistration_rate_limit_events enable row level security;

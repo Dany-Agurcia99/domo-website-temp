@@ -148,8 +148,6 @@ export async function submitPreregistration(
     full_name: validated.data.fullName,
     email: validated.data.email,
     phone: validated.data.phone || null,
-    department: validated.data.department,
-    platform: validated.data.platform,
     interest_role: validated.data.interest,
   });
 

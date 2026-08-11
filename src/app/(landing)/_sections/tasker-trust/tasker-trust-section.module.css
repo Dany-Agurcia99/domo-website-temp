@@ -1,5 +1,5 @@
 .section {
-  padding: 5rem 0;
+  padding: 3rem 0 5rem;
 }
 
 .grid {
@@ -121,15 +121,15 @@
   }
 }
 
-@media (min-width: 1100px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
+@media (min-width: 900px) {
+  .section {
+    padding: 3.5rem 0 7rem;
   }
 }
 
-@media (min-width: 900px) {
-  .section {
-    padding: 7rem 0;
+@media (min-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

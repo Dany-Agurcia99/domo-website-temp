@@ -22,7 +22,7 @@ export const siteText = {
       phone: "+504 9999-9999",
       department: "Selecciona tu departamento",
     },
-    cta: "Asegurar mi lugar",
+    cta: "Unirme al piloto",
     pendingCta: "Enviando registro...",
     successMessage:
       "Tu registro fue recibido. Te contactaremos cuando abramos acceso.",
@@ -66,6 +66,7 @@ export const siteFooterLinks = [
   { label: "Servicios", href: "/#servicios" },
   { label: "Cómo funciona", href: "/#como-funciona" },
   { label: "Confianza", href: "/#confianza" },
+  { label: "Taskers", href: "/#taskers" },
   { label: "Únete al piloto", href: "/#piloto" },
   { label: "Registro", href: "/#registro" },
 ] as const;
