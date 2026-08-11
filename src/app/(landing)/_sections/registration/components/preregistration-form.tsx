@@ -1,12 +1,13 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, type FormEvent } from "react";
 import Link from "next/link";
 
 import {
   interestOptions,
   siteText,
 } from "@/constants/site-text";
+import { formatHondurasPhoneInput } from "@/utils/formatters";
 
 import { submitPreregistration } from "../actions/submit-preregistration";
 import { initialPreregistrationFormState } from "../types";
@@ -15,6 +16,10 @@ import styles from "./preregistration-form.module.css";
 
 function withErrorClass(baseClass: string, hasError: boolean) {
   return hasError ? `${baseClass} ${styles.inputError}` : baseClass;
+}
+
+function handlePhoneInput(event: FormEvent<HTMLInputElement>) {
+  event.currentTarget.value = formatHondurasPhoneInput(event.currentTarget.value);
 }
 
 export function PreregistrationForm() {
@@ -100,11 +105,12 @@ export function PreregistrationForm() {
               type="tel"
               inputMode="tel"
               autoComplete="tel"
-              maxLength={18}
+              maxLength={14}
               aria-describedby="phone-help"
               defaultValue={state.values.phone}
               placeholder={siteText.form.placeholders.phone}
               className={withErrorClass(styles.input, Boolean(state.fieldErrors.phone))}
+              onInput={handlePhoneInput}
             />
             {state.fieldErrors.phone ? (
               <span className={styles.errorText}>{state.fieldErrors.phone}</span>

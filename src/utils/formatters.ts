@@ -28,6 +28,28 @@ export function normalizeHondurasPhone(value: string): string {
   return digitsOnly;
 }
 
+export function formatHondurasPhoneInput(value: string): string {
+  const digitsOnly = value.replace(/\D/g, "");
+
+  if (!digitsOnly) {
+    return "";
+  }
+
+  const localDigits = digitsOnly.startsWith("504")
+    ? digitsOnly.slice(3, 11)
+    : digitsOnly.slice(0, 8);
+
+  if (!localDigits) {
+    return "";
+  }
+
+  if (localDigits.length <= 4) {
+    return `+504 ${localDigits}`;
+  }
+
+  return `+504 ${localDigits.slice(0, 4)}-${localDigits.slice(4)}`;
+}
+
 export function toTitleCase(value: string): string {
   return value
     .toLowerCase()
