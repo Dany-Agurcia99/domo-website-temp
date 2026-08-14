@@ -1,13 +1,13 @@
 export const siteText = {
   metadata: {
-    title: "domo | Unete al piloto",
+    title: "domo | Únete al piloto",
     description:
-      "Pre-registro para el piloto de domo, la app hondurena de servicios para el hogar.",
+      "Pre-registro para el piloto de domo, la app hondureña de servicios para el hogar.",
   },
   form: {
-    title: "Reserva tu lugar",
+    title: "Reservá tu lugar",
     description:
-      "Completa tus datos para avisarte cuando domo llegue a tu zona.",
+      "Completá tus datos para avisarte cuando domo llegue a tu zona.",
     labels: {
       fullName: "Nombre",
       email: "Correo",
@@ -17,22 +17,22 @@ export const siteText = {
       interest: "Me interesa ser",
     },
     placeholders: {
-      fullName: "Ej: Ana Lopez",
+      fullName: "Ej: Ana López",
       email: "tu-correo@dominio.com",
       phone: "+504 9999-9999",
-      department: "Selecciona tu departamento",
+      department: "Seleccioná tu departamento",
     },
     cta: "Unirme al piloto",
     pendingCta: "Enviando registro...",
     successMessage:
-      "Tu registro fue recibido. Te contactaremos cuando abramos acceso.",
-    invalidMessage: "Revisa los campos marcados e intenta de nuevo.",
+      "Tu registro fue recibido. Te contactaremos cuando abramos el acceso.",
+    invalidMessage: "Revisá los campos marcados e intentá de nuevo.",
     rateLimitMessage:
-      "Has realizado varios intentos. Espera unos minutos antes de intentarlo nuevamente.",
+      "Hiciste varios intentos. Esperá unos minutos antes de intentarlo nuevamente.",
     serverErrorMessage:
-      "No pudimos guardar tu registro ahora. Intenta nuevamente en unos minutos.",
+      "No pudimos guardar tu registro ahora. Intentá nuevamente en unos minutos.",
     missingConfigMessage:
-      "Falta configurar Supabase para guardar registros. Revisa las variables de entorno.",
+      "Falta configurar Supabase para guardar registros. Revisá las variables de entorno.",
   },
 } as const;
 

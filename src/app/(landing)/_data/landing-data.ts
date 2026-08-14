@@ -1,29 +1,39 @@
 export const landingHero = {
   description:
-    "Encuentra profesionales cercanos para reparaciones y mejoras, todo en un mismo lugar.",
-  cta: "Unirse al Piloto",
+    "Encontrá profesionales cercanos para reparaciones y mejoras, todo en un mismo lugar.",
+  cta: "Unirme al piloto",
 } as const;
 
 export const landingServices = [
   {
     id: "fontaneria",
-    title: "Fontaneria",
+    title: "Fontanería",
+    description:
+      "Soluciones rápidas para fugas, cañerías y arreglos que te ahorran tiempo y estrés.",
   },
   {
     id: "electricidad",
     title: "Electricidad",
+    description:
+      "Reparaciones y mantenimientos seguros para luces, enchufes y conexiones del día a día.",
   },
   {
     id: "limpieza",
     title: "Limpieza",
+    description:
+      "Para vos, tu hogar, oficina o auto: dejá esos espacios impecables sin complicarte.",
   },
   {
     id: "cerrajeria",
-    title: "Cerrajeria",
+    title: "Cerrajería",
+    description:
+      "Aperturas, cambios de cerraduras y revisiones para cuidar la seguridad para tu hogar y vehículo.",
   },
   {
     id: "electrodomesticos",
-    title: "Electrodomesticos",
+    title: "Electrodomésticos",
+    description:
+      "Reparación y mantenimiento para que tus equipos sigan funcionando como siempre.",
   },
 ] as const;
 
@@ -32,21 +42,21 @@ export const landingSteps = [
     number: "01",
     title: "Elegí un servicio",
     description:
-      "Escoge la categoría que necesites y describe tu solicitud.",
+      "Elegí la categoría que necesitás y describí tu solicitud.",
     icon: "LayoutGrid",
   },
   {
     number: "02",
-    title: "Escoge tu especialista",
+    title: "Elegí a tu especialista",
     description:
-      "Compara profesionales verificados que más se ajuste a tu situación.",
+      "Compara profesionales verificados que mejor se adapten a tu situación.",
     icon: "BadgeCheck",
   },
   {
     number: "03",
-    title: "Agenda día y hora",
+    title: "Agendá día y hora",
     description:
-      "Elige día y hora según a tu conveniencia.",
+      "Elegí el día y la hora que más te convengan.",
     icon: "CalendarClock",
   },
 ] as const;
@@ -61,13 +71,13 @@ export const landingTrustCards = [
   {
     title: "Pago sin sorpresas",
     description:
-      "El pago se confirma solo cuando el trabajo esté como acordaron y tú des tu aprobación final.",
+      "El pago se confirma solo cuando el trabajo esté como acordaron y vos des tu aprobación final.",
     icon: "ReceiptText",
   },
   {
-    title: "Califica tu experiencia",
+    title: "Calificá tu experiencia",
     description:
-      "Al finalizar, puedes valorar el servicio y compartir tu opinión para ayudar a otros clientes.",
+      "Al finalizar, podés valorar el servicio y compartir tu opinión para ayudar a otros clientes.",
     icon: "Star",
   },
   {
@@ -94,13 +104,13 @@ export const landingTaskerTrustCards = [
   {
     title: "Trabajo a tu ritmo",
     description:
-      "Tú eliges horarios, clientes y tipos de trabajo para construir tu crecimiento como tasker.",
+      "Vos elegís horarios, clientes y tipos de trabajo para construir tu crecimiento como tasker.",
     icon: "Clock3",
   },
   {
     title: "Respaldo constante",
     description:
-      "No trabajas solo: cuentas con soporte y herramientas para seguir creciendo paso a paso.",
+      "No trabajás solo: contás con soporte y herramientas para seguir creciendo paso a paso.",
     icon: "Handshake",
   },
 ] as const;
@@ -108,9 +118,9 @@ export const landingTaskerTrustCards = [
 export const landingCta = {
   availability: "Usuarios registrados:",
   titleLead: "Únete al piloto.",
-  titleHighlight: "Ayúdanos",
+  titleHighlight: "Ayudanos",
   titleTail: "a construirlo.",
   description:
-    "Los primeros miembros reciben acceso anticipado y una sorpresa cuando domo active sus servicios ;).",
+    "Los primeros miembros reciben acceso anticipado y una sorpresa cuando domo active sus servicios ;)",
   cta: "Asegurar mi lugar",
 } as const;

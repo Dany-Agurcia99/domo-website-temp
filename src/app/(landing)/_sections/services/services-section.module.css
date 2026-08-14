@@ -44,10 +44,11 @@
   pointer-events: none;
   background: linear-gradient(
     180deg,
-    rgb(8 12 25 / 22%) 0%,
-    rgb(8 12 25 / 48%) 100%
+    rgb(8 12 25 / 35%) 0%,
+    rgb(8 12 25 / 68%) 100%
   );
-  opacity: 0;
+  backdrop-filter: blur(2px);
+  opacity: 1;
   transition: opacity 220ms ease;
 }
 
@@ -99,13 +100,41 @@
   opacity: 1;
 }
 
+.info {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding: 0 1rem 1.1rem;
+}
+
+.description {
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  color: rgb(255 255 255 / 92%);
+  font-size: 1rem;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  text-align: left;
+  align-self: flex-start;
+  transform: translateY(10px);
+  transition:
+    max-height 220ms ease,
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
 .card h3 {
   position: relative;
   z-index: 2;
   max-width: 100%;
   margin: 0;
-  padding: 0.5rem 1rem 1.1rem;
-  justify-self: end;
   color: var(--color-domo-white);
   font-family: var(--font-display), var(--font-main), sans-serif;
   font-size: clamp(0.82rem, 3.4vw, 1.15rem);
@@ -114,6 +143,12 @@
   overflow-wrap: anywhere;
   text-align: right;
   text-shadow: 0 2px 12px rgb(0 0 0 / 45%);
+  align-self: flex-end;
+}
+
+.card h3,
+.card .description {
+  width: 100%;
 }
 
 .card:focus-visible {
@@ -140,8 +175,15 @@
     min-height: 22rem;
   }
 
+  .info {
+    padding: 0 1.25rem 1.25rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
   .card h3 {
-    padding: 0.5rem 1.25rem 1.25rem;
     font-size: 1.35rem;
   }
 }
@@ -168,19 +210,30 @@
 
 @media (hover: hover) and (pointer: fine) {
   .card:hover .serviceIcon,
-  .card:focus-visible .serviceIcon {
+  .card:focus-visible .serviceIcon,
+  .card.active .serviceIcon {
     opacity: 0;
     transform: scale(1.04);
   }
 
   .card:hover .serviceVideo,
-  .card:focus-visible .serviceVideo {
+  .card:focus-visible .serviceVideo,
+  .card.active .serviceVideo {
     opacity: 1;
   }
 
   .card:hover::after,
-  .card:focus-visible::after {
+  .card:focus-visible::after,
+  .card.active::after {
     opacity: 1;
+  }
+
+  .card:hover .description,
+  .card:focus-visible .description,
+  .card.active .description {
+    opacity: 1;
+    max-height: 6rem;
+    transform: translateY(0);
   }
 }
 

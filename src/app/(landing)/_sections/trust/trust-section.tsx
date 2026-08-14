@@ -17,7 +17,7 @@ export function TrustSection() {
     <section id="confianza" className={styles.section}>
       <Container>
         <SectionHeader eyebrow="Confianza">
-          Garantizada tu <span>satisfacción!</span>
+          Garantizá tu <span>satisfacción!</span>
         </SectionHeader>
       </Container>
 

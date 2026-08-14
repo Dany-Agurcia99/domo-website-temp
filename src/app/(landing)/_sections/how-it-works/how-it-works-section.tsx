@@ -54,8 +54,8 @@ export function HowItWorksSection() {
     <section id="como-funciona" ref={sectionRef} className={styles.section}>
       <div className={styles.sticky}>
         <Container>
-          <SectionHeader eyebrow="Como funciona" tone="dark">
-            Encuentra Profesionales <span>en 3 pasos</span>
+          <SectionHeader eyebrow="Cómo funciona" tone="dark">
+            Encontrá profesionales <span>en 3 pasos</span>
           </SectionHeader>
 
           <div className={styles.grid}>

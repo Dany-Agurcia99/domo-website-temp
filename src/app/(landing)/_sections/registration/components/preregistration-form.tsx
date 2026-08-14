@@ -116,7 +116,7 @@ export function PreregistrationForm() {
               <span className={styles.errorText}>{state.fieldErrors.phone}</span>
             ) : null}
             <span id="phone-help" className={styles.helperText}>
-              Solo te notificaremos cuando domo esté disponible. Nada de spam.
+              Solo te avisaremos cuando domo esté disponible. Nada de spam.
             </span>
           </div>
 
@@ -151,9 +151,9 @@ export function PreregistrationForm() {
         <SubmitButton />
 
         <p className={styles.legalNotice}>
-          Al registrarte, confirmas que has leído nuestros{" "}
+          Al registrarte, confirmás que leíste nuestros{" "}
           <Link href="/terms">Términos y Condiciones</Link> y la{" "}
-          <Link href="/privacy">Política de Privacidad</Link>, y autorizas a
+          <Link href="/privacy">Política de Privacidad</Link>, y autorizás a
           domo a contactarte cuando la app esté disponible.
         </p>
       </form>

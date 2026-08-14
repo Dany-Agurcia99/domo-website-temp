@@ -42,7 +42,7 @@ export function ServicesSection() {
     <section id="servicios" className={styles.section}>
       <Container>
         <SectionHeader eyebrow="Servicios">
-          Para todas las necesidades de tu hogar,{" "}
+          Para todas las necesidades de tu hogar, {" "}
           <span>en una sola app</span>
         </SectionHeader>
       </Container>
@@ -132,7 +132,11 @@ function ServiceTile({
           alt=""
         />
       </div>
-      <h3>{service.title}</h3>
+
+      <div className={styles.info}>
+        <p className={styles.description}>{service.description}</p>
+        <h3>{service.title}</h3>
+      </div>
     </button>
   );
 }
