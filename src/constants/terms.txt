@@ -1,49 +1,61 @@
-Última actualización: 23 de junio de 2026.
-Operador del sitio: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “domo”, “nosotros” o la “Empresa”).
+Última actualización: 20 de agosto de 2026.
+Operador del sitio: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, con domicilio en Tegucigalpa, M.D.C., Honduras (en adelante, “domo”, “nosotros” o la “Empresa”).
+Al acceder a este sitio web (el “Sitio”) y enviar el formulario de prerregistro, la persona usuaria (el “Usuario”) declara haber leído y aceptado estos Términos y Condiciones (los “Términos”) y la Política de Privacidad. Si no está de acuerdo, le pedimos abstenerse de usar el Sitio.
+
 AVISO IMPORTANTE: ESTE SITIO TIENE COMO ÚNICO OBJETIVO RECIBIR PRERREGISTROS PARA INFORMAR SOBRE EL FUTURO LANZAMIENTO DE domo. EL PRERREGISTRO NO CREA UNA CUENTA, NO CONSTITUYE UNA RESERVA, NO GARANTIZA ACCESO A LA APLICACIÓN Y NO IMPLICA LA CONTRATACIÓN DE SERVICIO ALGUNO.
 
 1. OBJETO Y ALCANCE
-1.1. Estos Términos y Condiciones regulan el acceso a este sitio web y el envío del formulario de prerregistro de domo en Honduras.
-1.2. Las funcionalidades, servicios y condiciones comerciales de la futura aplicación domo se regirán por términos independientes cuando la aplicación esté disponible. Estos Términos no regulan todavía la contratación de servicios para el hogar, pagos, cuentas de usuario ni relaciones con proveedores o taskers.
+1.1. Estos Términos regulan el acceso al Sitio y el envío del formulario de prerregistro de domo en Honduras. El Sitio tiene carácter exclusivamente informativo y de captación de personas interesadas: da a conocer el proyecto domo y permite dejar datos de contacto para recibir información sobre su futuro lanzamiento.
+1.2. El Sitio no constituye la aplicación domo, no permite contratar servicios, no procesa pagos y no genera relación contractual de prestación de servicios entre el Usuario y domo ni entre Usuarios.
+1.3. Las funcionalidades, servicios y condiciones comerciales de la futura aplicación domo se regirán por términos independientes cuando la aplicación esté disponible. Estos Términos no regulan todavía la contratación de servicios para el hogar, pagos, cuentas de usuario ni relaciones con proveedores o taskers.
 
 2. ACEPTACIÓN Y CAPACIDAD
-2.1. Al enviar el formulario, la persona declara haber leído y aceptado estos Términos y la Política de Privacidad.
-2.2. No establecemos una edad mínima específica para el prerregistro. Cuando la legislación aplicable requiera autorización de un padre, madre, tutor o representante legal, la persona menor de edad declara contar con dicha autorización antes de enviar sus datos.
+2.1. Al enviar el formulario, el Usuario declara haber leído y aceptado estos Términos y la Política de Privacidad.
+2.2. El prerregistro está dirigido exclusivamente a personas mayores de dieciocho (18) años. Al enviar sus datos, el Usuario declara ser mayor de edad. No recopilamos intencionalmente datos de menores de edad; si detectamos un prerregistro de un menor, lo eliminaremos.
+2.3. El prerregistro es gratuito y voluntario, y consiste únicamente en manifestar interés en ser notificado sobre el proyecto. No otorga al Usuario ningún derecho de acceso prioritario, cupo reservado, beneficio económico ni garantía de admisión a la aplicación o a sus programas piloto.
 
 3. FUNCIONAMIENTO DEL PRERREGISTRO
-3.1. Para prerregistrarse se solicitará nombre, correo electrónico, departamento, plataforma móvil de interés y el rol que interesa a la persona. El número telefónico es opcional.
-3.2. La persona se compromete a proporcionar información propia, lícita y razonablemente exacta, y a no utilizar datos de terceros sin autorización.
-3.3. domo utilizará los datos de contacto para enviar una notificación cuando la aplicación esté disponible. El prerregistro no obliga a domo a lanzar la aplicación en una fecha determinada, ofrecerla en una zona específica, admitir a todas las personas registradas ni mantener las características descritas actualmente en el sitio.
-3.4. domo podrá eliminar registros duplicados, evidentemente falsos, automatizados, abusivos o contrarios a estos Términos.
+3.1. Para prerregistrarse se solicitará nombre completo, correo electrónico y el interés o rol que interesa al Usuario. El número telefónico es opcional.
+3.2. El Usuario se compromete a proporcionar información propia, lícita y razonablemente exacta, y a no utilizar datos de terceros sin autorización.
+3.3. Al prerregistrarse, el Usuario autoriza a domo a contactarlo por correo electrónico y, cuando lo haya proporcionado, por teléfono o mensajería, para notificar la disponibilidad de la aplicación, invitar a programas piloto o pruebas beta, y enviar novedades relacionadas con el proyecto. El Usuario puede dejar de recibir estas comunicaciones en cualquier momento mediante el enlace de baja incluido en los correos o escribiendo a la dirección de contacto.
+3.4. El prerregistro no obliga a domo a prestar servicio alguno, a lanzar la aplicación en una fecha determinada, a ofrecerla en una zona específica, a admitir al Usuario como cliente o proveedor (tasker), a admitir a todas las personas registradas ni a mantener las características descritas actualmente en el Sitio. La eventual incorporación a la aplicación o a un programa piloto quedará sujeta a los términos y procesos de selección que domo defina oportunamente, a su entera discreción.
+3.5. domo podrá eliminar registros duplicados, evidentemente falsos, automatizados, abusivos o contrarios a estos Términos.
 
 4. USO ACEPTABLE
-4.1. Está prohibido utilizar el sitio para enviar información ilícita, suplantar a otra persona, introducir código malicioso, interferir con su funcionamiento, intentar acceder a sistemas o datos sin autorización o generar registros mediante automatización abusiva.
-4.2. domo podrá limitar temporalmente los envíos, bloquear actividad abusiva y adoptar medidas razonables de seguridad para proteger el sitio y su base de datos.
+4.1. El Usuario se compromete a utilizar el Sitio conforme a la ley, la buena fe y estos Términos. Queda prohibido: (a) registrar o enviar datos de terceros sin su autorización; (b) suplantar la identidad de otra persona; (c) introducir información falsa, engañosa o ilícita; (d) intentar vulnerar la seguridad del Sitio, introducir código malicioso o realizar accesos no autorizados a sistemas o datos; (e) extraer datos del Sitio mediante medios automatizados (scraping) o generar registros mediante automatización abusiva; y (f) cualquier uso ilícito o que interfiera con el funcionamiento del Sitio o afecte los derechos de terceros.
+4.2. domo podrá limitar temporalmente los envíos, bloquear actividad abusiva y adoptar medidas razonables de seguridad para proteger el Sitio y su base de datos.
 
 5. PROPIEDAD INTELECTUAL
-5.1. El nombre domo, sus logotipos, diseño, textos, gráficos, software y demás elementos del sitio pertenecen a la Empresa o se utilizan con autorización. El acceso al sitio no concede licencia para copiarlos, modificarlos, distribuirlos o explotarlos comercialmente.
+5.1. El nombre domo, sus logotipos, diseño, textos, gráficos, interfaces, software y demás elementos del Sitio pertenecen a la Empresa o a sus licenciantes, o se utilizan con autorización, y están protegidos por la Ley de Propiedad Industrial, la Ley del Derecho de Autor y de los Derechos Conexos de Honduras y los tratados internacionales aplicables.
+5.2. El acceso al Sitio no concede licencia ni derecho alguno sobre dichos elementos más allá de su simple visualización. Queda prohibida su reproducción, modificación, distribución o explotación comercial sin autorización previa y escrita de la Empresa.
 
 6. SERVICIOS DE TERCEROS
-6.1. El sitio depende de proveedores tecnológicos de alojamiento, infraestructura, base de datos y comunicaciones. Las interrupciones o fallas de dichos proveedores pueden afectar temporalmente la disponibilidad del sitio.
-6.2. Los enlaces a sitios de terceros se proporcionan únicamente como referencia. domo no controla ni responde por sus contenidos o prácticas.
+6.1. El Sitio depende de proveedores tecnológicos de alojamiento, infraestructura, base de datos y comunicaciones. Las interrupciones o fallas de dichos proveedores pueden afectar temporalmente la disponibilidad del Sitio.
+6.2. El Sitio puede contener enlaces a sitios o servicios de terceros, por ejemplo tiendas de aplicaciones o redes sociales, proporcionados únicamente como referencia. domo no controla ni responde por sus contenidos, prácticas o políticas. El acceso a ellos es por cuenta y riesgo del Usuario.
 
 7. DISPONIBILIDAD Y RESPONSABILIDAD
-7.1. El sitio y el prerregistro se ofrecen “tal cual” y según disponibilidad. domo procurará mantenerlos operativos y seguros, pero no garantiza disponibilidad ininterrumpida, ausencia absoluta de errores ni una fecha concreta de lanzamiento.
-7.2. En la máxima medida permitida por la legislación hondureña, domo no será responsable por daños indirectos o pérdidas derivadas exclusivamente de interrupciones, errores técnicos, información incorrecta proporcionada por la persona o expectativas sobre el futuro lanzamiento.
-7.3. Nada en estos Términos excluye derechos o responsabilidades que no puedan limitarse conforme a la legislación aplicable.
+7.1. El Sitio y el prerregistro se ofrecen “tal cual” y “según disponibilidad”. domo procurará mantenerlos operativos y seguros, pero no garantiza disponibilidad ininterrumpida, ausencia absoluta de errores, ni la exactitud o vigencia permanente de la información publicada, que puede cambiar sin previo aviso.
+7.2. domo no garantiza que la aplicación será efectivamente lanzada, ni la fecha, el alcance geográfico, las funcionalidades, las categorías de servicio ni las condiciones del eventual lanzamiento. El proyecto puede ser modificado, pospuesto, suspendido o cancelado, total o parcialmente, en cualquier momento, sin que ello genere responsabilidad ni derecho a indemnización. Cualquier mención a fechas, ciudades o características futuras es meramente indicativa y no vinculante.
+7.3. En la máxima medida permitida por la legislación hondureña, domo no será responsable por daños directos, indirectos, incidentales o consecuenciales derivados del uso o de la imposibilidad de uso del Sitio, de interrupciones o errores técnicos, de información incorrecta proporcionada por el Usuario, o de expectativas sobre el futuro lanzamiento.
+7.4. Nada en estos Términos excluye derechos o responsabilidades que no puedan limitarse conforme a la legislación aplicable, incluidas las derivadas de dolo y los derechos irrenunciables que la normativa de protección al consumidor reconozca al Usuario.
 
 8. DATOS PERSONALES
-8.1. El tratamiento de datos personales se describe en la Política de Privacidad, que forma parte de estos Términos.
-8.2. La persona puede solicitar acceso, corrección o eliminación de sus datos escribiendo a admin@grupo-noma.com.
+8.1. El tratamiento de los datos personales recopilados a través del prerregistro se describe en la Política de Privacidad, que forma parte integrante de estos Términos y que el Usuario declara conocer y aceptar.
+8.2. El Usuario puede solicitar acceso, corrección o eliminación de sus datos escribiendo a admin@grupo-noma.com.
 
-9. MODIFICACIONES
-9.1. domo podrá actualizar estos Términos cuando cambie el sitio, el alcance del prerregistro o la normativa aplicable. La fecha de actualización aparecerá al inicio del documento.
-9.2. Las modificaciones sustanciales se aplicarán a partir de su publicación. Si el cambio requiere una nueva autorización para utilizar datos ya recopilados, domo la solicitará antes de realizar ese uso adicional.
+9. MODIFICACIONES, SUSPENSIÓN Y CIERRE DEL SITIO
+9.1. domo podrá modificar, actualizar, suspender o descontinuar el Sitio o cualquiera de sus contenidos y funciones, de forma temporal o definitiva, en cualquier momento y a su discreción, sin que ello genere responsabilidad frente al Usuario.
+9.2. domo podrá actualizar estos Términos cuando cambie el Sitio, el alcance del prerregistro o la normativa aplicable. La fecha de actualización aparecerá al inicio del documento, y las modificaciones sustanciales se aplicarán a partir de su publicación.
+9.3. Si un cambio requiere una nueva autorización para utilizar datos ya recopilados, domo la solicitará antes de realizar ese uso adicional.
 
-10. LEY APLICABLE
-10.1. Estos Términos se rigen por las leyes de la República de Honduras.
-10.2. Las partes procurarán resolver de buena fe cualquier inquietud mediante contacto directo. Cuando no sea posible, serán competentes las autoridades y tribunales hondureños que correspondan conforme a la ley.
+10. DISPOSICIONES GENERALES
+10.1. Si alguna disposición de estos Términos fuera declarada nula o inexigible, las demás conservarán plena validez, y la disposición afectada se interpretará del modo que mejor refleje su finalidad.
+10.2. La falta de ejercicio de un derecho por parte de domo no constituye renuncia al mismo.
 
-11. CONTACTO
-11.1. Para consultas sobre estos Términos o el prerregistro, puede escribir a admin@grupo-noma.com.
-11.2. domo — Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.
+11. LEY APLICABLE Y JURISDICCIÓN
+11.1. Estos Términos se rigen por las leyes de la República de Honduras.
+11.2. Las partes procurarán resolver de buena fe cualquier inquietud mediante contacto directo. Cuando no sea posible, serán competentes los juzgados y tribunales de Tegucigalpa, Municipio del Distrito Central, con renuncia a cualquier otro fuero, sin perjuicio de los derechos irrenunciables que correspondan al Usuario conforme a la ley.
+
+12. CONTACTO
+12.1. Para consultas sobre estos Términos o el prerregistro, puede escribir a admin@grupo-noma.com.
+12.2. domo — Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Tegucigalpa, M.D.C., Honduras.

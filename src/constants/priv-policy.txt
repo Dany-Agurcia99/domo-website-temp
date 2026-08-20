@@ -1,24 +1,28 @@
-Última actualización: 23 de junio de 2026.
-Responsable del tratamiento: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA (en adelante, “domo”, “nosotros” o la “Empresa”).
+Última actualización: 20 de agosto de 2026.
+Responsable del tratamiento: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, con domicilio en Tegucigalpa, M.D.C., Honduras (en adelante, “domo”, “nosotros” o la “Empresa”).
 Contacto de privacidad: admin@grupo-noma.com.
-Esta Política explica cómo tratamos los datos personales recopilados mediante el sitio de prerregistro de domo. No regula todavía el tratamiento de datos de la futura aplicación, que contará con una política actualizada antes de su lanzamiento.
+Esta Política explica cómo tratamos los datos personales recopilados mediante el sitio de prerregistro de domo (el “Sitio”) y forma parte integrante de los Términos y Condiciones. No regula todavía el tratamiento de datos de la futura aplicación, que contará con una política actualizada antes de su lanzamiento.
+
+Honduras reconoce la garantía constitucional de hábeas data (artículo 182 de la Constitución de la República). En ausencia de una ley general de protección de datos vigente, domo adopta voluntariamente buenas prácticas internacionales en la materia, reflejadas en esta Política.
 
 1. DATOS QUE RECOPILAMOS
-1.1. Datos proporcionados directamente: nombre, correo electrónico, departamento de Honduras, plataforma móvil de interés, interés en participar como cliente, tasker o ambos, y número telefónico cuando la persona decida proporcionarlo.
-1.2. Datos técnicos y de seguridad: fecha y hora del registro, registros técnicos generados por nuestros proveedores de infraestructura y un identificador criptográfico derivado de la dirección IP para limitar envíos abusivos. domo no almacena la dirección IP sin transformar en su tabla de rate limiting.
+1.1. Datos proporcionados directamente: nombre completo, correo electrónico, interés en participar como cliente, tasker o ambos, y número telefónico cuando la persona decida proporcionarlo.
+1.2. Datos técnicos y de seguridad: fecha y hora del registro, registros técnicos generados por nuestros proveedores de infraestructura y un identificador criptográfico derivado de la dirección IP para limitar envíos abusivos. domo no almacena la dirección IP sin transformar en su tabla de control de envíos (rate limiting).
 1.3. No solicitamos contraseñas, documentos de identidad, información bancaria, datos de pago ni categorías sensibles de información mediante este formulario.
 
 2. PARA QUÉ UTILIZAMOS LOS DATOS
-2.1. Administrar la lista de prerregistro y enviar una notificación cuando domo esté disponible.
-2.2. Conocer la demanda por departamento, plataforma y tipo de participación para planificar el lanzamiento.
+2.1. Administrar la lista de prerregistro y contactar a la persona para notificar la disponibilidad de domo, invitarla a programas piloto o pruebas beta, y enviarle novedades relacionadas con el proyecto.
+2.2. Conocer la demanda por tipo de participación para planificar el lanzamiento.
 2.3. Detectar registros duplicados, proteger el formulario, aplicar límites de envío y prevenir actividad automatizada o abusiva.
 2.4. Atender solicitudes relacionadas con acceso, corrección o eliminación de datos.
-2.5. No utilizaremos los datos para enviar publicidad recurrente ni comunicaciones ajenas al lanzamiento sin solicitar una autorización adicional cuando corresponda.
+2.5. No utilizaremos los datos para finalidades sustancialmente distintas de las aquí descritas sin solicitar una autorización adicional cuando corresponda. Toda comunicación incluirá un mecanismo para dejar de recibirla (baja).
+2.6. No utilizamos los datos para decisiones automatizadas que produzcan efectos jurídicos sobre la persona.
 
-3. AUTORIZACIÓN
-3.1. Al enviar el formulario, la persona confirma haber leído esta Política y autoriza el tratamiento de sus datos para las finalidades descritas.
-3.2. Proporcionar el número telefónico es opcional. No proporcionar teléfono no impide completar el prerregistro.
-3.3. La autorización puede retirarse en cualquier momento escribiendo a admin@grupo-noma.com. El retiro no afecta el tratamiento realizado legítimamente con anterioridad.
+3. BASE LEGAL Y AUTORIZACIÓN
+3.1. El tratamiento se basa en el consentimiento libre, informado y expreso que la persona otorga al enviar el formulario, y en el interés legítimo de domo de medir el interés en el proyecto y comunicarse con quienes se inscribieron voluntariamente.
+3.2. Al enviar el formulario, la persona confirma haber leído esta Política y autoriza el tratamiento de sus datos para las finalidades descritas, así como el contacto por correo electrónico y, cuando lo haya proporcionado, por teléfono o mensajería.
+3.3. Proporcionar el número telefónico es opcional. No proporcionarlo no impide completar el prerregistro.
+3.4. La autorización puede retirarse en cualquier momento escribiendo a admin@grupo-noma.com o mediante el enlace de baja incluido en los correos. El retiro no afecta el tratamiento realizado legítimamente con anterioridad. Aun después de la baja, podremos enviar comunicaciones estrictamente necesarias relacionadas con la propia solicitud de baja o con el ejercicio de los derechos de la persona.
 
 4. CONSERVACIÓN
 4.1. Conservaremos los datos del prerregistro durante un máximo de un (1) año contado desde la fecha en que fueron proporcionados. Podremos eliminarlos antes si dejan de ser necesarios, si la persona lo solicita o si identificamos un registro duplicado, falso o abusivo.
@@ -27,38 +31,39 @@ Esta Política explica cómo tratamos los datos personales recopilados mediante 
 
 5. CON QUIÉN COMPARTIMOS LOS DATOS
 5.1. No vendemos ni alquilamos datos personales.
-5.2. Podemos compartirlos únicamente con proveedores que nos ayudan a operar el sitio, alojar la aplicación, almacenar la base de datos y enviar la futura notificación. Actualmente utilizamos infraestructura de Vercel y Supabase.
-5.3. También podremos comunicar información cuando sea razonablemente necesario para cumplir una obligación legal, atender una orden válida de autoridad o proteger los derechos y la seguridad de domo y de terceros.
-5.4. Los proveedores actúan conforme a sus propios términos y compromisos de seguridad y reciben únicamente la información necesaria para prestar sus servicios.
+5.2. Podemos compartirlos únicamente con proveedores tecnológicos que nos ayudan a operar el Sitio, alojar la aplicación, almacenar la base de datos y enviar las comunicaciones descritas, los cuales actúan como encargados del tratamiento, siguiendo nuestras instrucciones y bajo obligaciones de confidencialidad y seguridad. Actualmente utilizamos infraestructura de Vercel y Supabase.
+5.3. También podremos comunicar información cuando sea razonablemente necesario para cumplir una obligación legal, atender una orden válida de autoridad competente o proteger los derechos y la seguridad de domo y de terceros.
+5.4. En caso de reorganización empresarial (fusión, adquisición o cesión del proyecto), los datos podrán transferirse al sucesor, quien quedará vinculado por esta Política o una equivalente.
+5.5. Los proveedores actúan conforme a sus propios términos y compromisos de seguridad, bajo obligaciones de confidencialidad, y reciben únicamente la información necesaria para prestar sus servicios.
 
 6. TRANSFERENCIAS Y UBICACIÓN
-6.1. Algunos proveedores tecnológicos pueden procesar o almacenar información fuera de Honduras. Al utilizar estos proveedores procuramos seleccionar servicios con medidas razonables de seguridad y protección de datos.
+6.1. Algunos proveedores tecnológicos pueden procesar o almacenar información fuera de Honduras. Al utilizar estos proveedores procuramos seleccionar servicios con medidas razonables de seguridad y protección de datos consistentes con esta Política.
 
 7. SEGURIDAD
 7.1. Aplicamos medidas razonables como cifrado HTTPS, acceso restringido mediante claves privadas de servidor, controles de base de datos, validación de campos, restricciones contra duplicados y limitación de envíos.
 7.2. Ningún sistema ofrece seguridad absoluta. En caso de un incidente relevante, adoptaremos medidas razonables para contenerlo y comunicaremos lo que corresponda conforme a la legislación aplicable.
 
 8. DERECHOS Y SOLICITUDES
-8.1. La persona puede solicitar confirmación sobre si conservamos sus datos, obtener información sobre ellos, corregir datos inexactos, retirar su autorización o pedir la eliminación del registro.
+8.1. La persona puede en cualquier momento solicitar confirmación sobre si conservamos sus datos, acceder a ellos, corregir datos inexactos, oponerse al tratamiento, retirar su autorización, darse de baja de las comunicaciones o pedir la eliminación del registro. El ejercicio de estos derechos es gratuito y se entiende sin perjuicio de la garantía constitucional de hábeas data.
 8.2. Para ejercer estos derechos debe escribir a admin@grupo-noma.com desde el correo utilizado para el prerregistro o proporcionar información suficiente para verificar razonablemente la titularidad. No solicitaremos más datos de los necesarios para atender la petición.
-8.3. Responderemos en un plazo razonable, considerando la naturaleza y complejidad de la solicitud y cualquier obligación legal aplicable.
+8.3. Responderemos en un plazo máximo de quince (15) días hábiles, prorrogable cuando la complejidad de la solicitud lo justifique, lo cual se comunicará a la persona.
 
 9. PERSONAS MENORES DE EDAD
-9.1. El prerregistro no está diseñado específicamente para recopilar datos de menores. Cuando una persona no tenga capacidad legal suficiente para autorizar el tratamiento por sí misma, deberá contar con autorización de su padre, madre, tutor o representante legal.
-9.2. Un representante puede solicitar la eliminación de los datos de una persona menor escribiendo a admin@grupo-noma.com.
+9.1. El prerregistro está dirigido exclusivamente a personas mayores de dieciocho (18) años. No recopilamos intencionalmente datos de menores de edad.
+9.2. Si detectamos un prerregistro de un menor, lo eliminaremos. Un padre, madre, tutor o representante legal puede solicitar la eliminación de los datos de una persona menor escribiendo a admin@grupo-noma.com.
 
 10. COOKIES Y ANALÍTICA
 10.1. Actualmente no utilizamos cookies publicitarias ni herramientas propias de seguimiento comercial en el formulario de prerregistro.
 10.2. Nuestros proveedores de alojamiento pueden generar registros técnicos indispensables para seguridad, funcionamiento y diagnóstico. Si incorporamos analítica, publicidad o tecnologías que requieran información adicional, actualizaremos esta Política y mostraremos los avisos correspondientes.
 
-11. NOTIFICACIÓN DE LANZAMIENTO
-11.1. Utilizaremos el correo electrónico y, si fue proporcionado, el teléfono para notificar la disponibilidad de domo. La finalidad del prerregistro es realizar esta comunicación de lanzamiento, no enviar mensajes recurrentes.
-11.2. La persona puede solicitar su eliminación antes de recibir la notificación mediante el correo de contacto indicado.
+11. COMUNICACIONES DEL PROYECTO
+11.1. Utilizaremos el correo electrónico y, si fue proporcionado, el teléfono o la mensajería para notificar la disponibilidad de domo, invitar a pruebas beta y enviar novedades del proyecto, conforme a la Sección 2.
+11.2. La persona puede darse de baja de estas comunicaciones en cualquier momento mediante el enlace incluido en los correos o escribiendo al correo de contacto, y puede solicitar la eliminación de sus datos cuando lo desee.
 
 12. CAMBIOS A ESTA POLÍTICA
 12.1. Podemos actualizar esta Política por cambios en el sitio, nuestros proveedores o la normativa aplicable. La versión vigente y su fecha se publicarán en esta página.
 12.2. Si pretendemos utilizar los datos existentes para una finalidad sustancialmente diferente, informaremos a las personas afectadas y solicitaremos una nueva autorización cuando corresponda.
 
 13. CONTACTO
-13.1. Responsable: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Honduras.
+13.1. Responsable: domo, proyecto operado por Innovaciones Corporativas Tecnológicas y Digitales S. de R.L., con denominación Grupo NOMA, Tegucigalpa, M.D.C., Honduras.
 13.2. Correo para privacidad, acceso, corrección, eliminación y consultas generales: admin@grupo-noma.com.
