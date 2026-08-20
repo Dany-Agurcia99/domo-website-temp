@@ -95,23 +95,17 @@
 }
 
 .phoneFrame {
-  position: relative;
-  width: min(100%, calc((100svh - 19rem) * 622 / 1356), 20rem);
-  aspect-ratio: 622 / 1356;
+  width: 100%;
+  min-height: clamp(16rem, 48svh, 32rem);
   margin: 0 auto;
-  padding: 0.5rem;
-  overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--color-domo-white) 12%, transparent);
-  border-radius: 2rem;
-  background: var(--color-domo-baseOpp);
-  box-shadow: 0 42px 90px -48px var(--color-domo-baseOpp);
+  display: grid;
+  place-items: center;
 }
 
-.mockScreenshot {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 1.5rem;
+.stepPreviewIcon {
+  width: min(100%, clamp(9rem, 28vw, 15rem));
+  height: auto;
+  color: var(--color-domo-secondary);
   animation: fadeIn 220ms ease both;
 }
 
@@ -138,20 +132,21 @@
     justify-self: end;
   }
 
-  .phoneFrame {
-    width: clamp(12rem, calc((100svh - 23rem) * 622 / 1356), 17rem);
-  }
 }
 
 @media (max-width: 899px) {
+  .section {
+    height: 300svh;
+  }
+
   .sticky {
-    align-items: start;
-    padding: 6.5rem 0 1.5rem;
+    align-items: center;
+    padding: 4.75rem 0 0.75rem;
   }
 
   .grid {
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
   }
 
   .stepList {
@@ -168,10 +163,15 @@
   }
 
   .phoneFrame {
-    width: auto;
-    height: min(54vh, 29rem);
-    aspect-ratio: 622 / 1356;
+    min-height: 0;
+    height: min(28svh, 14rem);
   }
+
+  .stepPreviewIcon {
+    width: min(62%, clamp(8rem, 44vw, 12rem));
+    max-height: 100%;
+  }
+
 }
 
 @media (max-width: 520px) {
@@ -200,9 +200,6 @@
     font-size: 0.82rem;
   }
 
-  .phoneFrame {
-    height: min(54vh, 29rem);
-  }
 }
 
 @keyframes stepIn {

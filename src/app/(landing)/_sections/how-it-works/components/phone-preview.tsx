@@ -1,19 +1,24 @@
-import Image from "next/image";
-
-import mockScreenshot from "@/assets/mock-screenshot.png";
+import { BadgeCheck, CalendarClock, LayoutGrid } from "lucide-react";
 
 import styles from "../how-it-works-section.module.css";
 
-const stepScreenshots = [mockScreenshot, mockScreenshot, mockScreenshot] as const;
+const stepPreviews = [
+  { icon: LayoutGrid, label: "Elegí un servicio" },
+  { icon: BadgeCheck, label: "Elegí a tu especialista" },
+  { icon: CalendarClock, label: "Agendá día y hora" },
+] as const;
 
 export function PhonePreview({ active }: { active: number }) {
+  const preview = stepPreviews[active] ?? stepPreviews[0];
+  const Icon = preview.icon;
+
   return (
-    <div className={styles.phoneFrame}>
-      <Image
+    <div className={styles.phoneFrame} role="img" aria-label={preview.label}>
+      <Icon
         key={active}
-        className={styles.mockScreenshot}
-        src={stepScreenshots[active]}
-        alt={`Captura de la app domo para el paso ${active + 1}`}
+        className={styles.stepPreviewIcon}
+        aria-hidden
+        strokeWidth={1.5}
       />
     </div>
   );
