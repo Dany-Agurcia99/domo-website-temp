@@ -5,13 +5,10 @@ import { unstable_noStore as noStore } from "next/cache";
 import domoIsotipo from "@/assets/domo-isotipo-hd.png";
 import { ButtonLink } from "@/components/ui/button-link";
 import { Container } from "@/components/layout/container";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getPreregistrationCount } from "@/lib/domo-api";
 
 import { landingCta } from "../../_data/landing-data";
 import styles from "./main-cta-section.module.css";
-
-const preregistrationTable =
-  process.env.SUPABASE_PREREGISTRATION_TABLE ?? "preregistrations";
 
 const founderOffset = 350;
 
@@ -19,19 +16,9 @@ async function getFounderCount(): Promise<number | null> {
   noStore();
 
   try {
-    const supabase = createSupabaseServerClient();
-    const { count, error } = await supabase
-      .from(preregistrationTable)
-      .select("*", { count: "exact", head: true });
-
-    if (error) {
-      console.error("[main-cta] failed to fetch preregistration count", error);
-      return null;
-    }
-
-    return (count ?? 0) + founderOffset;
+    return (await getPreregistrationCount()) + founderOffset;
   } catch (error) {
-    console.error("[main-cta] failed to initialize supabase client", error);
+    console.error("[main-cta] failed to fetch preregistration count", error);
     return null;
   }
 }
